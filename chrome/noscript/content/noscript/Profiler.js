@@ -1,6 +1,6 @@
 Profiler = {
   watchlist: { NoScript: ns, requestWatchdog: RequestWatchdog.prototype,
-      InjectionChecker: InjectionChecker, ABE: ABE, IOUtil: IOUtil, DNS: DNS},
+      ABE: ABE, IOUtil: IOUtil, DNS: DNS},
   data: {},
   reset: function() this.data = {},
   

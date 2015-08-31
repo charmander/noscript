@@ -89,7 +89,6 @@
 <!ENTITY noscriptNselForce "Näita &lt;NOSCRIPT&gt; elementi, mis järgneb blokeeritud &lt;SCRIPT&gt; elemendile">
 <!ENTITY noscriptAutoAllowTopLevel "Luba ajutiselt vaikimisi tipptaseme veebilehed">
 <!ENTITY noscriptDescription "Lisakaitse Firefoxile: NoScript lubab JavaSkripti, Javat (ja teisi pluginaid) ainult usaldusväärsetest domeenidest sinu valikul (nt kodupanga veebilehel). Antud nn valgel nimekirjal põhinev blokeerimine hoiab ära tuntud ja isegi tundmatute turvaaukude kuritahtlikku ärakasutamist ilma funktsionaalsust kaotamata… Eksperdid nõustuvad, et Firefox on turvalisem koos NoScriptiga :-)">
-<!ENTITY noscriptOptBlockCssScanners "Blokeeri CSS-põhinevad skannerid">
 <!ENTITY noscriptShowConsole "Näita konsooli…">
 <!ENTITY noscriptShowConsole.accesskey "k">
 <!ENTITY noscriptUnsafeReload "Mitteturvaline uuestilaadimine">

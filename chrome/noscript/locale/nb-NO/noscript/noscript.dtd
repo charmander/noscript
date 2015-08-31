@@ -89,7 +89,6 @@
 <!ENTITY noscriptNselForce "Vis &lt;NoScript&gt; elementer som følge av blokkerte &lt;Scripts&gt;">
 <!ENTITY noscriptAutoAllowTopLevel "Midlertidig tillat top-nivå sider som standard">
 <!ENTITY noscriptDescription "Ekstra beskyttelse for Firefox: NoScript tillater JavaScript, Java (og andre plugin) kun for trygge sider som du velger selv (f.eks. din nettbank). Denne hvitlistebaserte blokkeringssnutten forhindrer utnyttelse av sikkerhetshull (kjente og ukjente) uten tap av funksjonalitet. Ekspertene er enige: Firefox er mye tryggere med NoScript.">
-<!ENTITY noscriptOptBlockCssScanners "Blokker CSS-baserte scannere">
 <!ENTITY noscriptShowConsole "Vis konsoll...">
 <!ENTITY noscriptShowConsole.accesskey "S">
 <!ENTITY noscriptUnsafeReload "Usikker oppdatering">

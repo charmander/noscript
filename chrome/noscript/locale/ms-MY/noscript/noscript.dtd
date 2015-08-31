@@ -89,7 +89,6 @@
 <!ENTITY noscriptNselForce "Tunjukkan unsur &lt;NOSCRIPT&gt; apabila &lt;SCRIPT&gt; dihalang">
 <!ENTITY noscriptAutoAllowTopLevel "Benarkan sementara laman top-level secara biasa">
 <!ENTITY noscriptDescription "Perlindungaan tambahan untuk Firefox anda: NoScript membenarkan JavaScript, Java (dan plugin-plugin lain) hanya untuk laman yang anda percayai (contoh:laman web bank). Senarai putih berdasarkan pre-emptive menghalang eksploitasi pada sekuriti (yang diketahui dan tidak diketahui!) tanpa pengurangan fungsi... Pakar-pakar telah menyetujui bahawa: Firefox adalah benar-benar selamat dengan NoScript:-)">
-<!ENTITY noscriptOptBlockCssScanners "Halang pengesan CSS">
 <!ENTITY noscriptShowConsole "Tunjukkan Konsol...">
 <!ENTITY noscriptShowConsole.accesskey "S">
 <!ENTITY noscriptUnsafeReload "Muat turun semula secara tidak selamat">

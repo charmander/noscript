@@ -89,7 +89,6 @@
 <!ENTITY noscriptNselForce "Prikaži &lt;NOSCRIPT&gt; elemente, ki sledijo blokiranemu &lt;SCRIPT&gt; elementu">
 <!ENTITY noscriptAutoAllowTopLevel "Privzeto začasno dovoli vrhnje domene">
 <!ENTITY noscriptDescription "Dodatna zaščita za vaš Firefox: NoScript omogoči izvajanje JavaScript, Java (in drugih vtičnikov) samo na zaupanja vrednih domenah po vaši izbiri (pr. domača stran vaše spletne banke). S pristopom varnih seznamov onemogočimo izkoriščanje varnostnih lukenj (znanih in neznanih!) brez izgub funkcionalnosti... Strokovnjaki se bodo strinjali: Firefox je bolj varen z uporabo NoScript-a :-)">
-<!ENTITY noscriptOptBlockCssScanners "Prepreči CSS-osnovane skenerje">
 <!ENTITY noscriptShowConsole "Prikaži konzolo...">
 <!ENTITY noscriptShowConsole.accesskey "P">
 <!ENTITY noscriptUnsafeReload "Nevarna osvežitev">

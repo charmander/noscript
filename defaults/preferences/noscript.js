@@ -109,44 +109,7 @@ pref("noscript.contentBlocker", false);
 pref("noscript.toggle.temp", true);
 pref("noscript.firstRunRedirection", true);
 
-pref("noscript.xss.notify", true);
-pref("noscript.xss.notify.subframes", true);
-pref("noscript.xss.trustReloads", false);
-pref("noscript.xss.trustData", true);
-pref("noscript.xss.trustExternal", true);
-pref("noscript.xss.trustTemp", true);
-pref("noscript.xss.checkInclusions", true);
-pref("noscript.xss.checkInclusions.exceptions", "intensedebate.com/idc/js/");
-pref("noscript.xss.checkCharset.exceptions", "");
-
-pref("noscript.filterXPost", true);
-pref("noscript.filterXGet", true);
-pref("noscript.filterXGetRx", "<+(?=[^<>=\-\\d\\. /\\(])|[\\\\\"\\x00-\\x07\\x09\\x0B\\x0C\\x0E-\\x1F\\x7F]");
-pref("noscript.filterXGetUserRx", "");
-pref("noscript.filterXExceptions", "^https?://([a-z]+)\\.google\\.(?:[a-z]{1,3}\\.)?[a-z]+/(?:search|custom|\\1)\\?\n^https?://([a-z]*)\\.?search\\.yahoo\\.com/search(?:\\?|/\\1\\b)\n^https?://[a-z]+\\.wikipedia\\.org/wiki/[^\"<>\?%]+$\n^https?://translate\\.google\\.com/translate_t[^\"'<>\?%]+$\n^https://secure\\.wikimedia\\.org/wikipedia/[a-z]+/wiki/[^\"<>\\?%]+$");
-pref("noscript.filterXExceptions.blogspot", true);
-pref("noscript.filterXExceptions.darla_name", true);
-pref("noscript.filterXExceptions.deviantart", true);
-pref("noscript.filterXExceptions.fbconnect", true);
-pref("noscript.filterXExceptions.ebay", true);
-pref("noscript.filterXExceptions.ggadgets", true);
-pref("noscript.filterXExceptions.letitbit", true);
-pref("noscript.filterXExceptions.livejournal", true);
-pref("noscript.filterXExceptions.lycosmail", true);
-pref("noscript.filterXExceptions.medicare", true);
-pref("noscript.filterXException.photobucket", true);
-pref("noscript.filterXExceptions.readability", true);
-pref("noscript.filterXExceptions.yahoo", true);
-pref("noscript.filterXExceptions.visa", true);
-pref("noscript.filterXExceptions.verizon", true);
-pref("noscript.filterXExceptions.zendesk", true);
-pref("noscript.filterXExceptions.yt_comments", true);
-
 pref("noscript.protectWindowNameXAssignment", true);
-
-pref("noscript.injectionCheck", 2);
-pref("noscript.injectionCheckPost", true);
-pref("noscript.injectionCheckHTML", true);
 
 pref("noscript.globalwarning", true);
 
@@ -193,7 +156,6 @@ pref("noscript.alwaysBlockUntrustedContent", true);
 
 pref("noscript.consoleLog", false);
 
-pref("noscript.dropXssProtection", true);
 pref("noscript.flashPatch", true);
 pref("noscript.silverlightPatch", true);
 
@@ -412,7 +374,6 @@ pref("noscript.preset", "medium");
 pref("noscript.forbidBGRefresh", 1);
 pref("noscript.forbidBGRefresh.exceptions", ".mozilla.org");
 
-pref("noscript.toStaticHTML", true);
 pref("noscript.liveConnectInterception", true);
 pref("noscript.audioApiInterception", true);
 

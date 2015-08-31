@@ -89,7 +89,6 @@
 <!ENTITY noscriptNselForce "Hiển thị phần tử &lt;noscript&gt; đi sau một phần tử &lt;SCRIPT&gt; bị chặn">
 <!ENTITY noscriptAutoAllowTopLevel "Tạm thời cho phép trang miền cấp một theo mặc định">
 <!ENTITY noscriptDescription "Thêm sự bảo vệ cho Firefox của bạn: NoScript chỉ cho phép JavaScript, Java (và các plugins khác) được chạy trên những tên miền đáng tin mà bạn chọn (v.d., trang web ngân hàng của bạn). Hướng đi chặn trước dựa trên sổ trắng này ngăn chặn việc khai thác lổ hỏng bảo mật (biết trước và ngay cả chưa biết!) mà không mất đi tính năng... Các chuyên gia sẽ đồng ý rằng: Firefox thật sự an toàn hơn với NoScript :-)">
-<!ENTITY noscriptOptBlockCssScanners "Chặn các trình quét dựa trên CSS">
 <!ENTITY noscriptShowConsole "Hiển thị Bảng kiểm soát...">
 <!ENTITY noscriptShowConsole.accesskey "H">
 <!ENTITY noscriptUnsafeReload "Tải Lại Không An Toàn">

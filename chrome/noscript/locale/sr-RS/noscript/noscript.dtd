@@ -87,7 +87,6 @@
 <!ENTITY noscriptNselForce "Прикажи &lt;NOSCRIPT&gt; који се налази иза блокираног &lt;SCRIPT&gt;">
 <!ENTITY noscriptAutoAllowTopLevel "Привремено дозволи top-level стране као подразумевано">
 <!ENTITY noscriptDescription "Додатна заштита за ваш Firefox: NoScript дозвољава JavaScript, Java (и остале додатке) само доменима којима се верује по вашем избору (нпр. Ваша е-banking веб страна). Овај превентивни приступ блокирања базиран на белој листи спречава искоришћавање безбедносних пропуста (познатих и чак и непознатих!) без икаквог губитка функционалности... Експерти ће се сложити: Firefox је заиста безбеднији са NoScript-ом :-)">
-<!ENTITY noscriptOptBlockCssScanners "Блокирај CSS-базиране скенере">
 <!ENTITY noscriptShowConsole "Прикажи конзолу...">
 <!ENTITY noscriptShowConsole.accesskey "р">
 <!ENTITY noscriptUnsafeReload "Небезбедно поновно учитавање">

@@ -89,7 +89,6 @@
 <!ENTITY noscriptNselForce "Показване на &lt;NOSCRIPT&gt; елемент, който следва блокиран &lt;SCRIPT&gt;">
 <!ENTITY noscriptAutoAllowTopLevel "Временно позволи използване на java от всички сайтове">
 <!ENTITY noscriptDescription "Допълнителна защита за вашия Firefox: NoScript контролира JavaScript, Java (и други добавки) за избрани от вас сайтове (например, вашият личен банков сайт). Предотвратява използването на &quot;дупки&quot; в сигурността от всякакъв вид (познати и непознати) без загуба на функционалност… Експертите ще се съгласят: Със NoScript вашият браузър е в безопасност :-)">
-<!ENTITY noscriptOptBlockCssScanners "Блокиране на CSS-базирани скенери">
 <!ENTITY noscriptShowConsole "Показване на конзолата…">
 <!ENTITY noscriptShowConsole.accesskey "П">
 <!ENTITY noscriptUnsafeReload "Незащитено презареждане">

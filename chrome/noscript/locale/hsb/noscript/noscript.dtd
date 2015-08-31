@@ -89,7 +89,6 @@
 <!ENTITY noscriptNselForce "Element &lt;NOSCRIPT&gt; pokazać, kotryž zablokowanemu &lt;SCRIPT&gt; slěduje">
 <!ENTITY noscriptAutoAllowTopLevel "Po standardźe sydła najwyšeje runiny nachwilu dowolić">
 <!ENTITY noscriptDescription "Wosebity škit za waš Firefox: NoScript dowola JavaScript, Java (a druhe tykače) jenož za dowěry hódne domeny wašeje wólby (na př. waše websydło za domjacne bankowanje). Tuta běła lisćina, kotraž na prewentiwnym přistupje k blokowanju bazěruje, zadźěwa znjewužiwanju wěstotnych dźěrow (znatych a samo njeznatych!) bjez zhubjenja funkcionalnosće… Eksperća přizwola: Firefox je woprawdźe wěsćiši z NoScript :-)">
-<!ENTITY noscriptOptBlockCssScanners "Skanery na zakładźe CSS blokować">
 <!ENTITY noscriptShowConsole "Konsolu pokazać…">
 <!ENTITY noscriptShowConsole.accesskey "K">
 <!ENTITY noscriptUnsafeReload "Njewěste znowazačitanje">

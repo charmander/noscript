@@ -89,7 +89,6 @@
 <!ENTITY noscriptNselForce "&lt;NOSCRIPT&gt;-Element, das einem blockierten &lt;SCRIPT&gt; folgt, anzeigen">
 <!ENTITY noscriptAutoAllowTopLevel "Jeweils aktuelle Top-Level-Site temporär erlauben">
 <!ENTITY noscriptDescription "Zusätzlicher Schutz für Ihren Browser: NoScript erlaubt das Ausführen von JavaScript, Java (und anderen Plugins) nur bei vertrauenswürdigen Domains Ihrer Wahl (z.B. Ihrer Homebanking-Website). Der auf einer Positivliste basierende präventive Ansatz zum Blockieren von Skripten verhindert das Ausnutzen von (bekannten und unbekannten!) Sicherheitslücken ohne Verlust an Funktionalität.">
-<!ENTITY noscriptOptBlockCssScanners "Auf Cross-Site Scripting basierende Scanner blockieren">
 <!ENTITY noscriptShowConsole "Konsole anzeigen…">
 <!ENTITY noscriptShowConsole.accesskey "z">
 <!ENTITY noscriptUnsafeReload "Unsicheres Nachladen">

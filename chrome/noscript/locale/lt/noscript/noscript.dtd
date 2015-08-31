@@ -88,7 +88,6 @@
 <!ENTITY noscriptNselForce "Rodyti &lt;NOSCRIPT&gt; elementus, kurie eina po blokinio &lt;SCRIPT&gt; elemento">
 <!ENTITY noscriptAutoAllowTopLevel "Pagal nutylėjimą, laikinai suteikti leidimą aukščiausiojo lygio svetainių adresams">
 <!ENTITY noscriptDescription "Papildoma apsauga jūsų Firefox naršyklei: NoScript leidžia JavaScript, Java (ir kitus įskiepius) tik jūsų pasirinktiems patikimiems domenams (pvz. jūsų banko interneto svetainei). Ši baltuoju sąrašu pagrįsta išankstinio blokavimo taktika neleidžia panaudoti saugumo skylių (žinomų ir net nežinomų!) neprarandant funkcionalumo... Ekspertai pritaria: Firefox tikrai saugesnis su NoScript :-)">
-<!ENTITY noscriptOptBlockCssScanners "Blokuoti ieškiklius, pagrįstus CSS">
 <!ENTITY noscriptShowConsole "Rodyti konsolę">
 <!ENTITY noscriptShowConsole.accesskey "K">
 <!ENTITY noscriptUnsafeReload "Nesaugus perkrovimas">

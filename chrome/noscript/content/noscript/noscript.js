@@ -60,10 +60,6 @@ var noscriptUtil = {
         "chrome, dialog=no, centerscreen, resizable=no, alwaysraised=no",
         params);
   },
-  
-  openXssOptions: function() {
-    this.openOptionsDialog({tabselIndexes: [5, 2]});
-  },
   openABEOptions: function(info) {
     this.openOptionsDialog({
         tabselIndexes: [5, 4],

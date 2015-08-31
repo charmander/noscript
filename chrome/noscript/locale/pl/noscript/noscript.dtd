@@ -89,7 +89,6 @@
 <!ENTITY noscriptNselForce "Wyświetlaj składniki pobierane z blokowanych witryn przez element &lt;NOSCRIPT&gt;">
 <!ENTITY noscriptAutoAllowTopLevel "Domyślne, czasowo dozwolone witryny">
 <!ENTITY noscriptDescription "Dodatkowe zabezpieczenie Firefoksa. NoScript pozwala na wykonywanie kodów JavaScript, Java i innych wtyczek tylko wybranym przez użytkownika zaufanym domenom np. strony bankowe. Lista zaufanych domen pozwala zabezpieczyć się przed znanymi i nieznanymi witrynami próbującymi przechwycić dane o użytkowniku. Eksperci potwierdzają, że Firefox z zainstalowanym NoScript jest bezpieczniejszy.">
-<!ENTITY noscriptOptBlockCssScanners "Blokuj skanery oparte na cross-site scripting (XSS)">
 <!ENTITY noscriptShowConsole "Wyświetl konsolę">
 <!ENTITY noscriptShowConsole.accesskey "S">
 <!ENTITY noscriptUnsafeReload "Odśwież bez zabezpieczeń">

@@ -89,7 +89,6 @@
 <!ENTITY noscriptNselForce "أظهر محتويات عنصر &lt;NOSCRIPT&gt; الذي يلي &lt;SCRIPT&gt; معترض">
 <!ENTITY noscriptAutoAllowTopLevel "مبدئيا اسمح مؤقتا لمواقع المستوى الأعلى">
 <!ENTITY noscriptDescription "حماية إضافية لفيرفوكس: نوسكربت يسمح لجافاسكربت و جافا (و ملحقات أخرى) للعمل فقط من المواقع الموثوقة التي تختارها (مثلا:موقع مصرفك). هذه المقاربة التحفظية المبنية على القوائم البيضاء تمنع استغلال الثغرات الأمنية (حتى غير المعلومة منها) دون تقليل الكفاءة…سيؤكد المحترفون أن فيرفوكس أكثر أمناً مع نوسكربت.:-)">
-<!ENTITY noscriptOptBlockCssScanners "اعترض الماسحات المبنية على تقنية XSS">
 <!ENTITY noscriptShowConsole "أظهر وحدة التحكم">
 <!ENTITY noscriptShowConsole.accesskey "ك">
 <!ENTITY noscriptUnsafeReload "إعادة تحميل غير آمنة">

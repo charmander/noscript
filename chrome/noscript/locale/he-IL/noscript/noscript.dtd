@@ -87,7 +87,6 @@
 <!ENTITY noscriptNselForce "הצג רכיב &lt;NOSCRIPT&gt; שבא אחרי &lt;SCRIPT&gt; חסום.">
 <!ENTITY noscriptAutoAllowTopLevel "התר אתרים ראשיים באופן זמני כברירת מחדל">
 <!ENTITY noscriptDescription "הגנה נוספת עבור ה־Firefox שלך: NoScript מתיר ל־ ™JS, Java (ותוספות אחרות) לפעול רק בתחומים מהימנים על פי בחירתך (כגון: אתר הבית של חשבון הבנק שלך). גישה זו מבוססת על &quot;רשימת מותרים&quot; החוסמת מראש את מה שאינו מורשה, מונעת ניצול של פרצות אבטחה (כאלה שידועים ואפילו שעדיין לא!) מבלי לגרוע בתיפקודיות הגלישה..! מומחים יסכימו ש־Firefox בטוח יותר עם NoScript :-)">
-<!ENTITY noscriptOptBlockCssScanners "חסום סורקים מבוססי CSS">
 <!ENTITY noscriptShowConsole "הצג מסוף...">
 <!ENTITY noscriptShowConsole.accesskey "">
 <!ENTITY noscriptUnsafeReload "טעינה מחדש לא בטוחה">

@@ -89,7 +89,6 @@
 <!ENTITY noscriptNselForce "Προβολή του στοιχείου &lt;NOSCRIPT&gt; που ακολουθεί μπλοκαρισμένα σενάρια εντολών">
 <!ENTITY noscriptAutoAllowTopLevel "Να επιτρέπεται προσωρινά για τον βασικό ιστότοπο (ως αρχική ρύθμιση)">
 <!ENTITY noscriptDescription "Πρόσθετη προστασία για τον Firefox. Οι ειδικοί συμφωνούν: το NoScript δίνει μεγαλύτερη ασφάλεια στον Firefox. :-)">
-<!ENTITY noscriptOptBlockCssScanners "Μπλοκάρισμα ανιχνεύσεων CSS">
 <!ENTITY noscriptShowConsole "Προβολή κονσόλας…">
 <!ENTITY noscriptShowConsole.accesskey "κ">
 <!ENTITY noscriptUnsafeReload "Μη ασφαλής ανανέωση">

@@ -130,13 +130,6 @@
           oncommand="noscriptOverlay.tempToPerm()"
           />
        
-        <menu id="noscript-xss-menu" class="menu-iconic noscript-xss" 
-          onpopupshowing="event.stopPropagation()" 
-          onpopuphidden="event.stopPropagation()" 
-          label="&noscriptXss;">
-          <menupopup id="noscript-xss-menupopup"></menupopup>
-        </menu>
-       
        
        <menuseparator />
        <menuseparator class="noscript-sep-untrusted"/>
@@ -172,48 +165,6 @@
         
       <menuseparator class="noscript-sep-insert"/>
       <menuseparator class="noscript-sep-stop" hidden="true" />
-     </menupopup>
-     
-     
-     
-     <menupopup id="noscript-xss-popup" onpopupshowing="noscriptOverlay.prepareXssMenu(this)">
-        <menuitem id="noscript-mi-xss-console" 
-          label="&noscriptShowConsole;"
-          class="menuitem-iconic noscript-console"
-          accesskey="&noscriptShowConsole.accesskey;"
-          oncommand="noscriptUtil.openConsole()"
-         />
-         
-         <menuitem id="noscript-mi-xss-unsafe-reload"
-          class="menuitem-iconic noscript-unsafe-reload"
-          label="&noscriptUnsafeReload;"
-          accesskey="&noscriptUnsafeReload.accesskey;"
-          oncommand="noscriptOverlay.unsafeReload()"
-         />
-      
-         <menuseparator />
-         <menuitem id="noscript-mi-xss-opt-xss.notify"
-          label="&noscriptNotifications;"
-          type="checkbox" autocheck="true"
-          oncommand="noscriptOverlay.toggleMenuOpt(this)"
-         />
-        
-         <menuitem id="noscript-mi-xss-options" 
-          label="&noscriptOptions;"
-          class="menuitem-iconic noscript-options"
-          accesskey="&noscriptOptions.accesskey;"
-          oncommand="noscriptUtil.openXssOptions()"
-        />
-        
-        <menuseparator />
-        <menuitem id="noscript-mi-xss-faq" 
-          label="&noscriptXssFaq;"
-          class="menuitem-iconic noscript-faq"
-          accesskey="&noscriptXssFaq.accesskey;"
-          oncommand="noscriptUtil.openFaq('xss')"
-        />
-        <menuitem id="noscript-abe-opts" class="menuitem-iconic noscript-abe"
-          style="display: none !important" />
      </menupopup>
      
      
@@ -296,15 +247,6 @@
     onmousemove="noscriptOverlay.onUIMove(event)"
     onmouseout="noscriptOverlay.onUIOut(event)"
     />
-  
-   
-  <statusbarpanel id="noscript-statusXss" insertbefore="statusbar-updates"
-    class="statusbarpanel-menu-iconic noscript-xss"
-    hidden="true"
-    onclick="switch(event.button) { case 1: this.hidden = true; break; case 2: event.preventDefault(); this.firstChild.showPopup(); }"
-    >
-    <menupopup id="noscript-status-xss-popup" onpopupshowing="noscriptOverlay.prepareXssMenu(this, true)" />
-  </statusbarpanel>
   
   <statusbarpanel id="noscript-statusRedirect" insertbefore="statusbar-updates"
     class="statusbarpanel-iconic noscript-redirect"

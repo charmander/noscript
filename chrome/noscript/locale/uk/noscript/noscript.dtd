@@ -87,7 +87,6 @@
 <!ENTITY noscriptNselForce "Показати елементи &lt;noscript&gt; при заблокованому &lt;SCRIPT&gt;">
 <!ENTITY noscriptAutoAllowTopLevel "Тимчасово дозволити за умовчанням сайти верхнього рівня">
 <!ENTITY noscriptDescription "Додатковий захист для вашого Firefox: NoScript дозволяє JavaScript, Java (та інші модулі) лише на довірених сайтах по вашому вибору. (Скажімо, сайт вашого банка). Такий превентивний підхід «білого списку» дозволяє вберегтись від усіх вразливостей (відомих та навіть невідомих!) без втрати функціональності…  Знавці погодяться: Firefox з додатком NoScript дійсно безпечніший :-)">
-<!ENTITY noscriptOptBlockCssScanners "Блокувати основані на CSS сканери">
 <!ENTITY noscriptShowConsole "Показати Консоль…">
 <!ENTITY noscriptShowConsole.accesskey "К">
 <!ENTITY noscriptUnsafeReload "Небезпечне перезавантаження">

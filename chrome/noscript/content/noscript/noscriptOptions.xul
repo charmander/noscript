@@ -224,12 +224,6 @@
           </vbox>
         </vbox>
         <separator class="thin" />
-        <hbox align="center">
-          <checkbox id="opt-xss.notify" label="&noscriptXss;" /><!-- TODO: accesskey -->
-          <label class="text-link" style="font-weight: bold" value="?"
-            onclick="noscriptUtil.openFaq('xss')"
-                 tooltiptext="&noscriptXssFaq;" />
-        </hbox>
 
 
         <checkbox id="opt-forbidMetaRefresh.notify" label="&noscriptNotifyMeta;" accesskey="&noscriptNotifyMeta.accesskey;"/>
@@ -269,7 +263,6 @@
       <tabs>
         <tab class="noscript-no" label=" &noscriptUntrusted; " id="nsopt-tabUntrusted" tooltiptext="&noscriptAdditionalRestrictions;"/>
         <tab class="noscript-yes" label=" &noscriptTrusted; " id="nsopt-tabTrusted" tooltiptext="&noscriptAdditionalPermissions;"/>
-        <tab class="noscript-xss" label=" &noscriptXss; " id="nsopt-tabXss"/>
         <tab class="noscript-https" label=" &noscriptHttps; " id="nsopt-tabHttps"/>
         <tab class="noscript-abe" label="&ABE;" id="nsopt-tabABE"/>
         <tab class="noscript-clearclick" label="ClearClick" id="nsopt-tabClearClick"/>

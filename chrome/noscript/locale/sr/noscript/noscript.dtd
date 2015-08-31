@@ -89,7 +89,6 @@
 <!ENTITY noscriptNselForce "Прикажи елемент &lt;NOSCRIPT&gt; који прати забрањен &lt;SCRIPT&gt;">
 <!ENTITY noscriptAutoAllowTopLevel "Привремено дозволи домене првог нивоа">
 <!ENTITY noscriptDescription "Додатна заштита за фајерфокс. Носкрипт омогућава јаваскрипт, јаву и друге прикључке само за поверљиве сајтове. Ова бела листа заснована је на превентивном забрањивању приступа ради спречавања искоришћавања сигурносних рањивости без губљења функционалности. Стручњаци ће се сложити — фајерфокс је безбеднији уз носкрипт.">
-<!ENTITY noscriptOptBlockCssScanners "Забрани скенере засноване на  CSS-у">
 <!ENTITY noscriptShowConsole "Прикажи конзолу…">
 <!ENTITY noscriptShowConsole.accesskey "к">
 <!ENTITY noscriptUnsafeReload "Небезбедно поновно учитавање">

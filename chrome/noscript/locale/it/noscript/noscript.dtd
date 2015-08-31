@@ -90,7 +90,6 @@
 <!ENTITY noscriptNselForce "Mostra l&apos;elemento &lt;NOSCRIPT&gt; che segue un elemento &lt;SCRIPT&gt; bloccato">
 <!ENTITY noscriptAutoAllowTopLevel "Permetti temporaneamente il sito principale in automatico">
 <!ENTITY noscriptDescription "Protezione aggiuntiva per Firefox: NoScript consente l&apos;esecuzione di JavaScript, di Java (e, opzionalmente, degli altri plugin) solo per domini fidati di tua scelta (es. la tua banca online). Questo blocco preventivo basato su whitelist impedisce lo sfruttamento di vulnerabiltà della sicurezza (sia note che  addirittura ancora sconosciute!) li esperti confermeranno: Firefox è davvero più sicuro con NoScript :-)">
-<!ENTITY noscriptOptBlockCssScanners "Blocca gli scanner basati su CSS">
 <!ENTITY noscriptShowConsole "Mostra Console…">
 <!ENTITY noscriptShowConsole.accesskey "C">
 <!ENTITY noscriptUnsafeReload "Ricarica senza protezione">

@@ -87,7 +87,6 @@
 <!ENTITY noscriptNselForce "Паказваць элемент &lt;NOSCRIPT&gt; які блакуе &lt;SCRIPT&gt;">
 <!ENTITY noscriptAutoAllowTopLevel "Часова дазваляць базавым даменам 2-го ўзроўня па змаўчанні">
 <!ENTITY noscriptDescription "Дадатковая абарона для Firefox: NoScript дазваляе дазваляць выкананне JavaScript, Java (і іншых убудоваў) толькі даменам, якім давяраеце (напрыклад, ваш вэб-сайт). Белы спіс, заснаваны на прынцыпе папераджальнага блакавання, дазваляе прадухіліць выкарыстанне ўразлівасцяў (вядомых і яшчэ невядомых!) без страты функцыянальнасці… Эксперты згаджаюцца: Firefox сапраўды бяспечней з NoScript :-)">
-<!ENTITY noscriptOptBlockCssScanners "Блакаваць CSS-сканары">
 <!ENTITY noscriptShowConsole "Паказаць кансоль…">
 <!ENTITY noscriptShowConsole.accesskey "S">
 <!ENTITY noscriptUnsafeReload "Небяспечная перазагрузка">

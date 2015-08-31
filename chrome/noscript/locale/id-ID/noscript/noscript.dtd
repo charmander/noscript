@@ -84,7 +84,6 @@
 <!ENTITY noscriptNselForce "Tampikan elemen &lt;NOSCRIPT&gt; yang mengikuti &lt;SCRIPT&gt; yang dihalangi">
 <!ENTITY noscriptAutoAllowTopLevel "Ijinkan sementara situs top-level untuk awal">
 <!ENTITY noscriptDescription "Perlindungan tambahan untuk FireFox Anda: NoScript mengijinkan JavaScript, Java (dan plugin lainnya) hanya untuk domain terpercaya pilihan Anda (misal: situs web-banking personal). Daftar putih ini menjadi dasar perlindungan dari penyalahgunaan lubang keamanan (yang diketahui maupun tidak) tanpa kehilangan fungsionalitas... Para ahli percaya: FireFox lebih aman bersama NoScript :-)">
-<!ENTITY noscriptOptBlockCssScanners "halangi pemindai berdasar CSS">
 <!ENTITY noscriptShowConsole "Tampilkan Penyangga">
 <!ENTITY noscriptShowConsole.accesskey "P">
 <!ENTITY noscriptUnsafeReload "Ambil ulang yang tidak aman">

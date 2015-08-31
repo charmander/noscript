@@ -88,11 +88,6 @@ var nsopt = {
 
     this.utils.syncGroup($("opt-secureCookies"));
 
-    this.xssEx = new RegExpController(
-        "xssEx",
-        ns.rxParsers.multi,
-        ns.getPref("filterXExceptions"));
-
     // hide incompatible options
     let browserWin = ns.dom.mostRecentBrowserWindow;
 
@@ -250,10 +245,6 @@ var nsopt = {
     }
 
     ns.setPref("allowHttpsOnly", $("sel-allowHttpsOnly").selectedIndex);
-
-    var exVal = this.xssEx.getValue();
-    if(this.xssEx.validate() || !/\S/.test(exVal))
-      ns.setPref("filterXExceptions", exVal);
 
     if (this.tempRevoked) {
       ns.resetAllowedObjects();

@@ -89,7 +89,6 @@
 <!ENTITY noscriptNselForce "Afișează elementele &lt;NOSCRIPT&gt; care urmează unui element &lt;SCRIPT&gt; blocat">
 <!ENTITY noscriptAutoAllowTopLevel "Permite temporar domeniile primare în mod implicit">
 <!ENTITY noscriptDescription "Ca protecție suplimentară pentru Firefox, NoScript nu permite executarea scripturilor JavaScript, Java, sau ale altor plugin-uri decât pentru domeniile de încredere alese de Dvs. Acest sistem de blocare preventivă a scripturilor împiedică exploatarea vulnerabilităților de securitate (cunoscute sau chiar necunoscute) fără pierdere de performanță... Experții vor fi de acord: Firefox este mult mai sigur cu NoScript :)">
-<!ENTITY noscriptOptBlockCssScanners "Blochează scanerele bazate pe CSS">
 <!ENTITY noscriptShowConsole "Afișează consola...">
 <!ENTITY noscriptShowConsole.accesskey "c">
 <!ENTITY noscriptUnsafeReload "Reîncărcare nesigură">

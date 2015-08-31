@@ -87,7 +87,6 @@
 <!ENTITY noscriptNselForce "&lt;NOSCRIPT&gt; দেখান যেটি &lt;SCRIPT&gt; আটকেছে">
 <!ENTITY noscriptAutoAllowTopLevel "সাময়িকভাবে ডিফল্টরূপে উপরের স্তরের সাইট অনুমোদন">
 <!ENTITY noscriptDescription "ফায়ারফক্সের জন্য অতিরিক্ত সুরক্ষা: নোস্ক্রিপট শুধুমাত্র আপনার বিশ্বাসযোগ্য এলাকারই কাজ করবে (যেমন আপনার বাঙ্কের ওয়েবসাইট). বিশেষজ্ঞরা রাজি হবে: ফায়ারফক্সের সত্যিই নিরাপদ হয় নোস্ক্রিপটের সঙ্গে  :-)">
-<!ENTITY noscriptOptBlockCssScanners "ব্লক CSS ভিত্তিক স্ক্যানার">
 <!ENTITY noscriptShowConsole "কনসোল দেখান ...">
 <!ENTITY noscriptShowConsole.accesskey "S">
 <!ENTITY noscriptUnsafeReload "বিপজ্জনক রিলোড">

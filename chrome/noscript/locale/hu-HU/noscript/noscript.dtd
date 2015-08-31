@@ -89,7 +89,6 @@
 <!ENTITY noscriptNselForce "&lt;NOSCRIPT&gt; elem megjelenítése, amely a blokkolt &lt;SCRIPT&gt; után következik">
 <!ENTITY noscriptAutoAllowTopLevel "Legmagasabb szintű webhelyek ideiglenes engedélyezése">
 <!ENTITY noscriptDescription "Firefox extra védelme: NoScript engedélyezheti a JavaScript, Java (és más beépülőket) az Ön által megadott webhelyekre (pl. átutalások interneten keresztül). Ez a megbízható szervereket tartalmazó lista megelőző blokkoláson alapszik, így óv a támadásoktól a biztonsági réseken keresztül (ismert és ismeretlen!), mindezt működés közben… Az expertek egyetértenek: A Firefox a NoScript kiterjesztéssel valóban biztonságosabb :-)">
-<!ENTITY noscriptOptBlockCssScanners "CSS-alapú szkennerek blokkolása">
 <!ENTITY noscriptShowConsole "Konzol megjelenítése…">
 <!ENTITY noscriptShowConsole.accesskey "K">
 <!ENTITY noscriptUnsafeReload "Megbízhatatlan újratöltése">

@@ -84,7 +84,6 @@
 <!ENTITY noscriptNselForce "ブロックした&lt;SCRIPT&gt;に引き続く&lt;NOSCRIPT&gt;を表示する">
 <!ENTITY noscriptAutoAllowTopLevel "トップレベルサイトはデフォルトで一時的に許可する">
 <!ENTITY noscriptDescription "Firefoxをさらに安全にします: NoScriptはJavaScript, Java（およびその他のプラグイン）を、（あなたが使うオンラインバンキングサイトなど）あなたが選んだ信頼できるサイトでのみ実行可能にします。このホワイトリストによる予防的ブロック手法によって、機能性を減じることなく(既知のものでも未知のものでも!)セキュリティ脆弱性への攻撃を阻止します...専門家は、NoScriptによってFireFoxが本当により安全になると言うことに同意するでしょう:-)">
-<!ENTITY noscriptOptBlockCssScanners "CSSベースのスキャナをブロックする">
 <!ENTITY noscriptShowConsole "エラーコンソールを表示する...">
 <!ENTITY noscriptShowConsole.accesskey "S">
 <!ENTITY noscriptUnsafeReload "安全でない再読み込み">

@@ -89,7 +89,6 @@
 <!ENTITY noscriptNselForce "Vidigi la eron 〈NOSCRIPT〉, kiu sekvas baritan 〈SCRIPT〉">
 <!ENTITY noscriptAutoAllowTopLevel "Provizore rajtigi ĉiujn senpere (ne en kadro ks) vizitatajn retejojn">
 <!ENTITY noscriptDescription "Plia protekto por via Firefox: NoScript permesas uzon de JavaSkripto, Javo kc nur al fidataj retejoj de vi elektitaj (ekzemple via retbankejo). Tiu ĉi laŭblanklista anticipa blokado malhelpas misuzadon de malsekuroj (konataj kaj eĉ nekonataj!) sen funkcikripligo… Kompetentuloj jesos: Firefox vere estas pli sekura kun NoScript :-)">
-<!ENTITY noscriptOptBlockCssScanners "Bloki per-CSS-ajn skanilojn">
 <!ENTITY noscriptShowConsole "Vidigi konzolon…">
 <!ENTITY noscriptShowConsole.accesskey "K">
 <!ENTITY noscriptUnsafeReload "Nesekura reŝargo">

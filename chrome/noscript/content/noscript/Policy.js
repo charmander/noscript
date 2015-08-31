@@ -3,7 +3,7 @@ var PolicyState = {
   checking: [],
   addCheck: function(url) {
     if (typeof Map === "function") {
-      this.checking = new Map(),
+      this.checking = new Map();
       this.addCheck = function(url) { this.checking.set(url, true); }
       this.removeCheck = function(url) { this.checking.delete(url); }
       PolicyState.isChecking = function(url) this.checking.has(url);
@@ -547,20 +547,10 @@ const MainContentPolicy = {
 
               if (aContext instanceof Ci.nsIDOMXULElement) {
                 originURL = originURL || aRequestOrigin.spec;
-                if (originURL === "chrome://browser/content/browser.xul") {
-                  //code
-                  if (this.dropXssProtection) {
-                    let stack = new Error().stack.split("\n");
-                    for (let j = stack.length; j-- > 0;)
-                    if (stack[j].indexOf("onxbldrop([object DragEvent])@chrome://global/content/bindings/browser.xml") === 0) {
-                      ns.log('NoScript prevented "' + aContentLocation.spec + '" from being loaded on drop.');
-                      return this.reject("Drop XSS", arguments);
-                    }
-                  }
-                } else if (
+                if (originURL !== "chrome://browser/content/browser.xul" && (
                   !(aContext.ownerDocument.URL === originURL // Addon-SDK panels
                      || this.isJSEnabled(originSite = this.getSite(originURL)))
-                  ) {
+                  )) {
                   return this.reject("top level data: URI from forbidden origin", arguments);
                 }
               }
@@ -665,29 +655,6 @@ const MainContentPolicy = {
 
           forbid = !(originSite && locationSite == originSite);
           scriptElement = aContext instanceof Ci.nsIDOMHTMLScriptElement;
-
-          if (forbid && httpOrigin && this.requestWatchdog /* lazy init */) {
-            // XSSI protection
-            let scriptURL = locationURL;
-            if (scriptURL.lastIndexOf('/') === scriptURL.length - 1)
-              scriptURL = scriptURL.slice(0, -1); // right trim slash
-            let decodedOrigin = InjectionChecker.urlUnescape(aRequestOrigin.spec);
-            if ((decodedOrigin.indexOf(scriptURL) > 0 || // don't use 0 b/c on redirections origin == scriptURL
-                Entities.convertAll(decodedOrigin).indexOf(scriptURL) > 0) &&
-                this.getPref("xss.checkInclusions") &&
-                !new AddressMatcher(this.getPref("xss.checkInclusions.exceptions", "")).test(locationURL)
-              ) {
-              let ds = DOM.getDocShellForWindow(contentDocument.defaultView);
-              let ch = ds.currentDocumentChannel;
-              let referrerURI = IOUtil.extractInternalReferrer(ch);
-              if (referrerURI && referrerURI.scheme.indexOf("http") === 0 &&
-                  this.getBaseDomain(referrerURI.host) !== this.getBaseDomain(this.getDomain(originURL))) {
-                let msg = "Blocking reflected script inclusion origin XSS from " + referrerURI.spec;
-                if (scriptElement) this.log(msg + ": " + locationURL + "\nembedded by\n" + decodedOrigin);
-                return this.reject(msg, arguments);
-              }
-            }
-          }
         } else isScript = scriptElement = false;
 
         if (forbid) {

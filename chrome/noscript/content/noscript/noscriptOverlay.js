@@ -306,30 +306,6 @@ return noscriptUtil.service ? {
     }
   },
 
-
-  prepareXssMenu: function(popup, invert) {
-    this.prepareOptItems(this.populateXssMenu(popup, invert));
-  },
-  populateXssMenu: function(popup, invert) {
-    var ref = $("noscript-mi-xss-unsafe-reload");
-    var parent = ref.parentNode;
-    var inverse = parent.lastChild.id != "noscript-mi-xss-faq";
-    invert = inverse && !invert;
-    if (parent != popup) {
-      while (parent.firstChild) {
-        popup.appendChild(invert ? parent.lastChild : parent.firstChild);
-      }
-    } else if (invert) {
-      for (var p, n = parent.lastChild; n; n = p) {
-        p = n.previousSibling;
-        parent.appendChild(n);
-      }
-    }
-    return popup;
-  },
-
-
-
   getSiteTooltip: function(enabled, full) {
     const info = this.getString("siteInfo.tooltip");
     const sep = "\n";
@@ -586,14 +562,6 @@ return noscriptUtil.service ? {
       node = node.nextSibling;
     }
 
-    let xssMenu = $("noscript-xss-menu");
-
-    if (xssMenu && node != xssMenu) {
-      mainMenu.insertBefore(xssMenu, node);
-    }
-    this.populateXssMenu(xssMenu.firstChild);
-    this.syncXssWidget(xssMenu);
-
     this.prepareOptItems(popup);
 
     var untrustedMenu = null,
@@ -632,7 +600,7 @@ return noscriptUtil.service ? {
     while (node && (node != seps.stop)) {
       remNode = node;
       node = node.nextSibling;
-      if (remNode != untrustedMenu && remNode != xssMenu)
+      if (remNode != untrustedMenu)
         mainMenu.removeChild(remNode);
     }
 
@@ -1480,23 +1448,6 @@ return noscriptUtil.service ? {
     }, 400);
   },
 
-
-  syncXssWidget: function(widget) {
-    if (!widget) widget = $("noscript-statusXss");
-    if (!widget) return;
-
-    const ns = this.ns;
-    var unsafeRequest = ns.requestWatchdog.getUnsafeRequest(this.currentBrowser);
-    if (unsafeRequest && !unsafeRequest.issued) {
-      widget.removeAttribute("hidden");
-      widget.setAttribute("tooltiptext", "XSS [" +
-                  ns.getSite(unsafeRequest.origin) + "]->[" +
-                  ns.getSite(unsafeRequest.URI.spec) + "]");
-    return;
-    }
-    widget.setAttribute("hidden", "true");
-  },
-
   syncRedirectWidget: function() {
     var widget = $("noscript-statusRedirect");
     if (!widget) return;
@@ -1730,43 +1681,6 @@ return noscriptUtil.service ? {
         box.getNotificationWithValue &&
         box.getNotificationWithValue(value))) return null;
     return box;
-  },
-
-  notifyXSSOnLoad: function(requestInfo) {
-    requestInfo.browser.addEventListener("DOMContentLoaded", function(ev) {
-      requestInfo.browser.removeEventListener(ev.type, arguments.callee, false);
-      if (requestInfo.unsafeRequest && requestInfo.unsafeRequest.issued) return;
-      noscriptOverlay.notifyXSS(requestInfo);
-    }, false);
-  },
-
-  notifyXSS: function(requestInfo) {
-    const notificationValue = "noscript-xss-notification";
-    const box = this.getAltNotificationBox(requestInfo.browser, notificationValue);
-    if (!box) return;
-
-    var origin = this.ns.getSite(requestInfo.unsafeRequest.origin);
-    origin = (origin && "[" + origin + "]") || this.getString("untrustedOrigin");
-    var label = this.getString("xss.notify.generic", [origin]);
-    var icon = this.getIcon("noscript-statusXss");
-
-    const refWidget = $("noscript-options-menuitem");
-    var buttonLabel = refWidget.getAttribute("label");
-    var buttonAccesskey = refWidget.getAttribute("accesskey");
-    var popup = $("noscript-xss-popup");
-    if ("Browser" in window) popup.className = "noscript-menu";
-
-    box.appendNotification(
-      label,
-      notificationValue,
-      icon,
-      box.PRIORITY_WARNING_HIGH,
-      [{
-        label: buttonLabel,
-        accessKey: buttonAccesskey,
-        popup: popup.id
-       }]
-      );
   },
 
   notifyMetaRefreshCallback: function(info) {

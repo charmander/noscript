@@ -89,7 +89,6 @@
 <!ENTITY noscriptNselForce "&lt;SCRIPT&gt;'den sonra oluşan &lt;NOSCRIPT&gt; öğelerini göster">
 <!ENTITY noscriptAutoAllowTopLevel "Varsayılan olarak aktif sitelere geçici izin verilir">
 <!ENTITY noscriptDescription "Firefox'unuz için ekstra güvenlik: NoScript seçiminize göre, sadece izin verdiğiniz sitelerde Java (ve diğer eklentilere) izin verebilir. Bu Beyazliste temelli öngörmeli engelleme tekniği güvenlik açıklarını(bilinen ve bilinmeyen) kapatmaya yararken işlevsellik kaybına neden olmaz… Uzmanlar katılacaklardır: Firefox NoScript ile birlikte daha güvenli :-)">
-<!ENTITY noscriptOptBlockCssScanners "CSS-temelli tarayıcıları engelle">
 <!ENTITY noscriptShowConsole "Konsolu göster">
 <!ENTITY noscriptShowConsole.accesskey "S">
 <!ENTITY noscriptUnsafeReload "Güvensiz TekrarYükleme">

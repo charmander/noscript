@@ -89,7 +89,6 @@
 <!ENTITY noscriptNselForce "顯示被封鎖的 &lt;Script&gt; 的 &lt;NoScript&gt; 元素">
 <!ENTITY noscriptAutoAllowTopLevel "預設暫時允許第一層網域">
 <!ENTITY noscriptDescription "為您的 Firefox 提供額外保護: NoScript 只允許您選擇的信任網域 (例如您的家庭金融網站) 上的 JavaScript, Java (和其他的外掛). 這份白名單基於預先處理來防止安全弱點 (已知和未知的!) 被利用，且不損失功能… 專家們都同意: Firefox 加上 NoScript 真的是更加安全 :-)">
-<!ENTITY noscriptOptBlockCssScanners "封鎖基於 CSS 的掃瞄器">
 <!ENTITY noscriptShowConsole "顯示控制台…">
 <!ENTITY noscriptShowConsole.accesskey "S">
 <!ENTITY noscriptUnsafeReload "不安全的重新讀取">

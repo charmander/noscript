@@ -10,10 +10,8 @@ toolbar[mode="full"] #noscript-tbb[type="menu"] {
 
 
 #noscript-statusIcon,
-#noscript-statusRedirect,
-#noscript-statusXss {
+#noscript-statusRedirect {
   cursor: pointer;
-  
 }
 
 .noscript-cmd {
@@ -50,10 +48,6 @@ toolbar[mode="full"] #noscript-tbb[type="menu"] {
 .noscript-redirect,
 #noscript-statusRedirect {
   list-style-image: url(redirect16.png);
-}
-.noscript-xss,
-#noscript-statusXss {
-  list-style-image: url(xss16.png);
 }
 
 .noscript-yes,

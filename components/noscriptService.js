@@ -138,8 +138,6 @@ const LOG_CONTENT_BLOCK = 1;
 const LOG_CONTENT_CALL = 2;
 const LOG_CONTENT_INTERCEPT = 4;
 const LOG_CHROME_WIN = 8;
-const LOG_XSS_FILTER = 16;
-const LOG_INJECTION_CHECK = 32;
 const LOG_DOM = 64; // obsolete, reuse me
 const LOG_JS = 128;
 const LOG_LEAKS = 1024;
@@ -1413,8 +1411,6 @@ var ns = {
 
   forbidXBL: 4,
   forbidXHR: 1,
-  injectionCheck: 2,
-  injectionCheckSubframes: true,
 
   jsredirectIgnore: false,
   jsredirectFollow: false,
@@ -1424,7 +1420,6 @@ var ns = {
   jsHack: null,
   jsHackRegExp: null,
 
-  dropXssProtection: true,
   flashPatch: true,
   silverlightPatch: true,
 
@@ -1549,13 +1544,11 @@ var ns = {
       case "forbidXBL":
       case "forbidXHR":
       case "ignorePorts":
-      case "injectionCheck":
       case "jsredirectFollow":
       case "jsredirectIgnore":
       case "jsredirectForceShow":
       case "jsHack":
       case "consoleLog":
-      case "dropXssProtection":
       case "flashPatch":
       case "silverlightPatch":
       case "inclusionTypeChecking":
@@ -1603,7 +1596,6 @@ var ns = {
       case "consoleDump":
         this[name] = this.getPref(name, this[name]);
         if (this.httpStarted) {
-          this.injectionChecker.logEnabled = !!(this.consoleDump & LOG_INJECTION_CHECK);
           ABE.consoleDump = !!(this.consoleDump & LOG_ABE);
         }
       break;
@@ -1907,7 +1899,6 @@ var ns = {
       "inclusionTypeChecking", "nosniff",
       "alwaysBlockUntrustedContent",
       "global", "ignorePorts",
-      "injectionCheck", "injectionCheckSubframes",
       "jsredirectIgnore", "jsredirectFollow", "jsredirectForceShow",
       "jsHack", "jsHackRegExp",
       "emulateFrameBreak",
@@ -1915,7 +1906,6 @@ var ns = {
       "showBlankSources", "showPlaceholder", "showUntrustedPlaceholder",
       "collapseObject",
       "temp", "untrusted", "gtemp",
-      "dropXssProtection",
       "flashPatch", "silverlightPatch",
       "allowHttpsOnly",
       "truncateTitle", "truncateTitleLen",
@@ -2478,8 +2468,6 @@ var ns = {
     ps.toPref(this.policyPB);
   }
 ,
-  get injectionChecker() this.requestWatchdog.injectionChecker
-,
   splitList: function(s) {
     return s ?/^[,\s]*$/.test(s) ? [] : s.split(/\s*[,\s]\s*/) : [];
   }
@@ -2663,8 +2651,8 @@ var ns = {
       !this.getPref("autoReload.allTabs") ||
       global != lastGlobal && !this.getPref("autoReload.allTabsOnGlobal");
 
-    var useHistory = this.getPref("xss.reload.useHistory", false);
-    var useHistoryExceptCurrent = this.getPref("xss.reload.useHistory.exceptCurrent", true);
+    var useHistory = false;
+    var useHistoryExceptCurrent = true;
 
 
 
@@ -2672,7 +2660,7 @@ var ns = {
     const nsIURL = Ci.nsIURL;
     const LOAD_FLAGS = nsIWebNavigation.LOAD_FLAGS_NONE;
 
-    const untrustedReload = !this.getPref("xss.trustReloads", false);
+    const untrustedReload = true;
 
     var bi = DOM.createBrowserIterator();
     var isCurrentTab = true;
@@ -2730,63 +2718,6 @@ var ns = {
             const wu = win.QueryInterface(Ci.nsIInterfaceRequestor)
                      .getInterface(Ci.nsIDOMWindowUtils);
             const rw = this.requestWatchdog;
-
-
-            let canSuppressEvents = "suppressEventHandling" in wu;
-            if (canSuppressEvents) wu.suppressEventHandling(true);
-            // check XSS
-
-            let xss = this.traverseDocShells(function(docShell) {
-              let site = this.getSite(docShell.currentURI.spec);
-
-              // is this a newly allowed docShell?
-              if ((this.isJSEnabled(site) || this.checkShorthands(site)) &&
-                  (lastGlobal
-                    ? this.alwaysBlockUntrustedContent && lastUntrusted.matches(site)
-                    : !(lastTrusted.matches(site) || this.checkShorthands(site, lastTrusted)) || lastUntrusted.matches(site)
-                  )
-                ) {
-
-                let channel = docShell.currentDocumentChannel;
-                if (channel instanceof Ci.nsIHttpChannel) {
-                  try {
-                    ts = 0; // checking XSS may be time consuming, let's spin events
-                    const url = channel.URI.spec;
-                    const uploadStream = (channel instanceof Ci.nsIUploadChannel) && channel.uploadStream;
-                    if (uploadStream && (uploadStream instanceof Ci.nsISeekableStream)) {
-                      uploadStream.seek(0, 0); // rewind
-                    }
-                    const abeReq = new ABERequest(channel);
-                    rw.setUntrustedReloadInfo(browser, true);
-                    rw.filterXSS(abeReq);
-                    if (url != channel.URI.spec || uploadStream && uploadStream != channel.uploadStream) {
-                      // XSS!
-                      channel.URI.spec = url;
-                      if (uploadStream) {
-                        uploadStream.seek(0, 0);
-                        channel.setUploadStream(uploadStream, "", -1);
-                      }
-                      return true;
-                    }
-                  } catch (e) {
-                    if (this.consoleDump) this.dump("Error checkin in permission change XSS checks, " + e + " - " + e.stack);
-                    return true; // better err on the safe side
-                  }
-                }
-              }
-              return false;
-            }, this, browser);
-
-            if (xss) {
-              forceReload = true;
-              useHistoryExceptCurrent = true;
-              if (!canSuppressEvents) { // Fx 3.0, let's erase the document
-                let de = win.document.documentElement;
-                while (de.firstChild) de.removeChild(de.firstChild);
-              }
-            } else {
-              if (canSuppressEvents) wu.suppressEventHandling(false);
-            }
 
             rw.setUntrustedReloadInfo(browser, true);
 
@@ -5901,8 +5832,6 @@ var ns = {
 
     var browser = null;
     var overlay = null;
-    var xssInfo = null;
-
 
     if (topWin) {
 
@@ -5913,8 +5842,6 @@ var ns = {
       if (overlay) {
         overlay.setMetaRefreshInfo(null, browser);
         if (isHTTP) {
-          xssInfo = IOUtil.extractFromChannel(req, "noscript.XSS");
-          if (xssInfo) xssInfo.browser = browser;
           this.requestWatchdog.unsafeReload(browser, false);
           if (!this.getExpando(browser, "clearClick")) {
             this.setExpando(browser, "clearClick", true);
@@ -5923,10 +5850,6 @@ var ns = {
         }
 
       }
-    }
-
-    if (IOUtil.extractFromChannel(req, "noscript.checkWindowName")) {
-      this.requestWatchdog.checkWindowName(domWindow, req.URI.spec);
     }
 
     if (this.onWindowSwitch && docShell &&
@@ -6001,14 +5924,8 @@ var ns = {
         }
       }
 
-      if (xssInfo) overlay.notifyXSS(xssInfo);
-
       return;
 
-    } else {
-      if (topWin) {
-        if (xssInfo) overlay.notifyXSSOnLoad(xssInfo);
-      }
     }
   },
 
@@ -6115,9 +6032,6 @@ var ns = {
   onWindowSwitch: function(url, win, docShell) {
     let channel = docShell.currentDocumentChannel;
 
-    if (IOUtil.extractFromChannel(channel, "noscript.xssChecked", true) &&
-        this.filterBadCharsets(docShell)) return;
-
     const doc = docShell.document;
     const flag = "__noScriptEarlyScripts__";
     if (flag in doc && doc[flag] === url) return;
@@ -6148,11 +6062,6 @@ var ns = {
         newWin.addEventListener("change", this.bind(this.onContentChange), true);
       }
     } else {
-
-      if (this.implementToStaticHTML && !("toStaticHTML" in doc.defaultView)) {
-        scripts = [this._toStaticHTMLDef];
-        doc.addEventListener("NoScript:toStaticHTML", this._toStaticHTMLHandler, false, true);
-      }
 
       let dntPatch = DoNotTrack.getDOMPatch(docShell);
       if (dntPatch) {
@@ -6315,54 +6224,6 @@ var ns = {
           t.appendChild(Cc["@mozilla.org/feed-unescapehtml;1"].getService(Ci.nsIScriptableUnescapeHTML)
                         .parseFragment(s, false, null, t));
       };
-  },
-  get implementToStaticHTML() {
-    delete this.implementToStaticHTML;
-    return this.implementToStaticHTML = this.getPref("toStaticHTML");
-  },
-  sanitizeStaticDOM: function(el) {
-     // remove attributes from forms
-    for each (let f in Array.slice(el.getElementsByTagName("form"))) {
-      for each(let a in Array.slice(f.attributes)) {
-        f.removeAttribute(a.name);
-      }
-    }
-    let doc = el.ownerDocument;
-    // remove dangerous URLs (e.g. javascript: or data: or reflected XSS URLs)
-    for each(let a in ['href', 'to', 'from', 'by', 'values']) {
-      let res = doc.evaluate('//@' + a, el, null, Ci.nsIDOMXPathResult.UNORDERED_NODE_SNAPSHOT_TYPE, null);
-      for (let j = res.snapshotLength; j-- > 0;) {
-        let attr = res.snapshotItem(j);
-        if (InjectionChecker.checkURL(attr.nodeValue))
-          attr.nodeValue = "";
-      }
-    }
-  },
-  _toStaticHTMLHandler:  function(ev) {
-    try {
-      var t = ev.target;
-      var doc = t.ownerDocument;
-      t.parentNode.removeChild(t);
-      var s = t.getAttribute("data-source");
-      ns.sanitizeHTML(s, t);
-      ns.sanitizeStaticDOM(t);
-    } catch(e){ if (ns.consoleDump) ns.dump(e) }
-  },
-  get _toStaticHTMLDef() {
-    delete this._toStaticHTMLDef;
-    return this._toStaticHTMLDef =
-    "window.toStaticHTML = " +
-    (
-      function toStaticHTML(s) {
-        var t = document.createElement("toStaticHTML");
-        t.setAttribute("data-source", s);
-        document.documentElement.appendChild(t);
-        var ev = document.createEvent("Events");
-        ev.initEvent("NoScript:toStaticHTML", true, false);
-        t.dispatchEvent(ev);
-        return t.innerHTML;
-      }
-    ).toString();
   },
 
   _webGLSites: {},
@@ -6626,82 +6487,6 @@ var ns = {
   },
   // end nsIWebProgressListener
 
-  _badCharsetRx: /\bUTF-?7\$|^armscii-8$/i,
-  _goodCharsetRx: /^UTF-?8$/i,
-  filterBadCharsets: function(docShell) {
-    try {
-      let charsetInfo = docShell.documentCharsetInfo || docShell;
-      let cs;
-      try {
-        cs = charsetInfo.charset;
-      } catch (e) {
-        cs = docShell.document.characterSet;
-      }
-
-      if (this._goodCharsetRx.test(cs)) return false;
-
-      if(this._badCharsetRx.test(cs)) {
-        this.log("[NoScript XSS] Neutralizing bad charset " + cs);
-      } else {
-        let uri = docShell.currentURI;
-        if (!(uri instanceof Ci.nsIURL)) return false;
-        let url = unescape(uri.spec);
-        try {
-          let exceptions = this.getPref("xss.checkCharset.exceptions");
-          if (exceptions && AddressMatcher.create(exceptions).test(url)) return false;
-        } catch (e) {}
-
-        let ic = this.injectionChecker;
-        let unicode = /^UTF-?16/i.test(cs) && url.indexOf("\0") !== -1;
-        let le = unicode && /LE$/i.test(cs);
-
-        function decode(u) {
-          if (unicode) {
-            let pos = u.indexOf("\0");
-            if (pos > -1) {
-              if (le) pos--;
-              return u.substring(0, pos) + ic.toUnicode(u.substring(pos), cs);
-            }
-          }
-          return ic.toUnicode(u, cs);
-        }
-
-        function check(original, decoded) original === decoded || !ic.checkRecursive(decoded, 1);
-
-        let [filePath, query, ref] = ["filePath", "query", "ref"].map(function(p) unescape(uri[p]));
-
-        if ( // check...
-            // ...whole URL
-            check(url, decode(url)) &&
-            // ...whole path
-            check(filePath, decode(filePath)) &&
-            // ...path parts
-            check(filePath,  uri.filePath.split("/").map(function(p) decode(unescape(p))).join("/")) &&
-            // ... whole query
-            check(query, decode(query)) &&
-            // ... query parts
-            check(query, uri.query.split("&").map(function(p) p.split("=").map(function(p) decode(unescape(p))).join("=")).join("&")) &&
-            // ... fragment
-            check(ref, decode(ref))
-          ) return false;
-
-        this.log("[NoScript XSS] Potential XSS with charset " + cs + ", aborting request");
-      }
-      /*
-      docShell.allowJavascript = false;
-      Thread.asap(function() docShell.allowJavascript = true);
-      let as = Cc["@mozilla.org/atom-service;1"].getService(Ci.nsIAtomService);
-      charsetInfo.forcedCharset = as.getAtom("UTF-8");
-      docShell.reload(docShell.LOAD_FLAGS_CHARSET_CHANGE); // needed in Gecko > 1.9
-      */
-      this.requestWatchdog.abortChannel(docShell.currentDocumentChannel);
-      return true;
-    } catch(e) {
-      ns.log(e)
-      if (this.consoleDump) this.dump("Error filtering charset " + e);
-    }
-    return false;
-  },
 
   _attemptNavigationInternal: function(doc, destURL, callback) {
     var cs = doc.characterSet;
@@ -6898,10 +6683,6 @@ var ns = {
               : this.isJSEnabled(this.getSite(principal.origin)))
         && (!to || to.test(url))
       );
-  },
-
-  createXSanitizer: function() {
-    return new XSanitizer(this.filterXGetRx, this.filterXGetUserRx);
   },
 
   get externalFilters() {

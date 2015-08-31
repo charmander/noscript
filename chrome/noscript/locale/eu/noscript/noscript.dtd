@@ -85,7 +85,6 @@
 <!ENTITY noscriptNselForce "Ikusi blokeaturiko &lt;SCRIPT&gt;-a jarraitzen duen &lt;NOSCRIPT&gt; elementua">
 <!ENTITY noscriptAutoAllowTopLevel "Aldi baterako onartu maila-altueneko guneak lehenespenez">
 <!ENTITY noscriptDescription "Babes gehigarria zure firefoxentzat: NoScript-ek JavaScript (eta beste pluginak= onartzen ditu bakarrik zure aukerako konfiantzako guneetan (adib zure bankuko webgunean). Zerrenda-zurian oinarritutako lehentasunezko blokeoak segurtasun zuloen (ezagun eta ezezagunen) probetxuzko esplotazioa saihesten du funtzionalitaterik galdu gabe. Adituak ados daude: Firefox seguruagoa da NoScript erabiliaz :-)">
-<!ENTITY noscriptOptBlockCssScanners "Bloekatu CSS-oinarridun eskanerrak">
 <!ENTITY noscriptShowConsole "Ikusi kontsola:">
 <!ENTITY noscriptShowConsole.accesskey "I">
 <!ENTITY noscriptUnsafeReload "Segurtasun-gabeko birkargatzea">
