@@ -10,9 +10,9 @@
   ondialogaccept="return nsopt.save()"
 
   title="&noscriptOptionsLong;"
-	buttons="extra2,accept,cancel"
+  buttons="extra2,accept,cancel"
 
-	buttonlabelextra2="&noscriptReset;"
+  buttonlabelextra2="&noscriptReset;"
   buttonaccesskeyextra2="&noscriptReset.accesskey;"
   ondialogextra2="nsopt.reset()"
 
@@ -53,7 +53,7 @@
          <radio label="&noscriptBaseDom;" value="3"/>
       </radiogroup>
     </groupbox>
-		<checkbox id="opt-hoverUI" label="&noscript.hoverUI;" oncommand="nsopt.toggleHoverUI()" />
+    <checkbox id="opt-hoverUI" label="&noscript.hoverUI;" oncommand="nsopt.toggleHoverUI()" />
     <groupbox id="toolbarToggleGroup" class="ia-indent">
       <caption orient="vertical">
       <checkbox id="cbx-toolbarToggle" label="&noscriptToolbarToggle;"/>
@@ -69,10 +69,10 @@
 
 
     <checkbox id="opt-autoReload" label="&noscriptAutoReload;" />
-		<vbox class="ia-indent">
+    <vbox class="ia-indent">
         <checkbox id="invopt-autoReload.allTabs" label="&noscriptAutoReload.currentTab;"  />
-		</vbox>
-		<separator class="thin"/>
+    </vbox>
+    <separator class="thin"/>
     <checkbox id="opt-allowBookmarks" label="&noscriptAllowViaBookmarks;" />
     <checkbox id="opt-placesPrefs" label="&noscriptBookmarkSync;" />
 
@@ -134,28 +134,28 @@
           <checkbox id="opt-forbidJava" label="&noscriptForbidJava;" />
           <checkbox id="opt-forbidFlash" label="&noscriptForbidFlash;" />
           <checkbox id="opt-forbidSilverlight" label="&noscriptForbidSilverlight;" />
-					<checkbox id="opt-forbidPlugins" label="&noscriptForbidPlugins;" />
-				</vbox>
-				<vbox flex="1">
-					<checkbox id="opt-forbidMedia" label="&noscriptForbidMedia;" />
+          <checkbox id="opt-forbidPlugins" label="&noscriptForbidPlugins;" />
+        </vbox>
+        <vbox flex="1">
+          <checkbox id="opt-forbidMedia" label="&noscriptForbidMedia;" />
           <checkbox id="opt-forbidIFrames" label="&noscriptForbidIFrames;" />
           <checkbox id="opt-forbidFrames" label="&noscriptForbidFrames;" />
-					<checkbox id="opt-forbidFonts" label="&noscriptForbidFonts;" />
+          <checkbox id="opt-forbidFonts" label="&noscriptForbidFonts;" />
         </vbox>
-			</hbox>
-			<separator class="thin" />
-      <checkbox id="opt-contentBlocker" label="&noscriptContentBlocker;" class="header" />
-			<checkbox id="opt-alwaysBlockUntrustedContent" label="&noscriptAlwaysBlockUntrustedContent;" />
-
-			<separator class="thin" />
-			<checkbox id="opt-forbidWebGL" label="&noscriptForbidWebGL;" />
+      </hbox>
       <separator class="thin" />
-			<checkbox id="opt-showPlaceholder" label="&noscriptShowPlaceholder;" />
-			<checkbox id="invopt-showUntrustedPlaceholder" label="&noscriptNoUntrustedPlaceholder;" />
-			<checkbox id="opt-confirmUnblock" label="&noscriptConfirmUnblock;" />
+      <checkbox id="opt-contentBlocker" label="&noscriptContentBlocker;" class="header" />
+      <checkbox id="opt-alwaysBlockUntrustedContent" label="&noscriptAlwaysBlockUntrustedContent;" />
+
+      <separator class="thin" />
+      <checkbox id="opt-forbidWebGL" label="&noscriptForbidWebGL;" />
+      <separator class="thin" />
+      <checkbox id="opt-showPlaceholder" label="&noscriptShowPlaceholder;" />
+      <checkbox id="invopt-showUntrustedPlaceholder" label="&noscriptNoUntrustedPlaceholder;" />
+      <checkbox id="opt-confirmUnblock" label="&noscriptConfirmUnblock;" />
       <checkbox id="opt-collapseObject" label="&noscriptCollapseBlockedObjects;" />
 
-			<hbox>
+      <hbox>
 
         <spacer flex="1" />
       </hbox>
@@ -169,7 +169,7 @@
 
     <checkbox id="opt-statusIcon" label="&noscriptStatusIcon;" />
     <checkbox id="opt-statusLabel" label="&noscriptStatusLabel;" />
-		<checkbox id="opt-ctxMenu" label="&noscriptCtxMenu;" />
+    <checkbox id="opt-ctxMenu" label="&noscriptCtxMenu;" />
 
       <separator />
        <hbox>
@@ -188,7 +188,7 @@
        <hbox>
           <vbox flex="1">
             <checkbox id="opt-showGlobal" label="Allow Globally" />
-	     <checkbox id="opt-showAbout" label="&noscriptAbout;" />
+       <checkbox id="opt-showAbout" label="&noscriptAbout;" />
             <checkbox id="opt-showUntrusted" label="&noscriptUntrusted;" />
             <checkbox id="opt-showBlockedObjects" label="&noscriptBlockedObjects;" />
             <checkbox id="opt-showRecentlyBlocked" label="&noscriptRecentBlocked;" />
@@ -198,7 +198,7 @@
             <checkbox id="opt-showTempAllowPage" label="&noscriptTempAllowPage;" />
             <checkbox id="opt-showTempToPerm" label="&noscriptTempToPerm;" />
             <checkbox id="opt-showRevokeTemp" label="&noscriptRevokeTemp;" />
-						<checkbox id="opt-showVolatilePrivatePermissionsToggle" label="&noscriptPermanentInPrivate;" />
+            <checkbox id="opt-showVolatilePrivatePermissionsToggle" label="&noscriptPermanentInPrivate;" />
           </vbox>
         </hbox>
 
@@ -272,7 +272,7 @@
         <tab class="noscript-xss" label=" &noscriptXss; " id="nsopt-tabXss"/>
         <tab class="noscript-https" label=" &noscriptHttps; " id="nsopt-tabHttps"/>
         <tab class="noscript-abe" label="&ABE;" id="nsopt-tabABE"/>
-				<tab class="noscript-clearclick" label="ClearClick" id="nsopt-tabClearClick"/>
+        <tab class="noscript-clearclick" label="ClearClick" id="nsopt-tabClearClick"/>
       </tabs>
       <tabpanels flex="1">
           <tabpanel>
@@ -288,8 +288,8 @@
                 <separator class="thin"/>
                 <checkbox id="opt-fixLinks" label="&noscriptFixLinks;" />
 
-								<separator class="thin"/>
-								<checkbox id="opt-restrictSubdocScripting" label="&noscriptRestrictSubdocScripting;" />
+                <separator class="thin"/>
+                <checkbox id="opt-restrictSubdocScripting" label="&noscriptRestrictSubdocScripting;" />
 
              <separator />
              <label class="text-link header"
@@ -309,8 +309,8 @@
               <checkbox id="opt-allowClipboard" label="&noscriptAllowClipboard;" />
               <checkbox id="opt-allowLocalLinks" label="&noscriptAllowLocalLinks;" />
 
-							<separator class="thin" />
-							<checkbox id="opt-cascadePermissions" label="&noscriptCascadePermissions;" />
+              <separator class="thin" />
+              <checkbox id="opt-cascadePermissions" label="&noscriptCascadePermissions;" />
              </vbox>
           </tabpanel><!-- END Additional Permissions -->
 
@@ -345,7 +345,7 @@
               <tabs>
                 <tab label=" &noscriptHttps.behavior; " id="nsopt-tabHttpsBehavior" />
                 <tab label=" &noscriptHttps.cookies; " id="nsopt-tabHttpsCookies"/>
-								<tab label=" &noscriptPermissions; " id="nsopt-tabHttpsPermissions"/>
+                <tab label=" &noscriptPermissions; " id="nsopt-tabHttpsPermissions"/>
 
               </tabs>
 
@@ -371,7 +371,7 @@
                     </groupbox>
                   </vbox>
                 </tabpanel>
-								<tabpanel>
+                <tabpanel>
                   <vbox flex="1">
                     <description control="sel-allowHttpsOnly" style="white-space: normal">&noscriptHttps.description;</description>
                     <menulist id="sel-allowHttpsOnly">
@@ -381,10 +381,10 @@
                         <menuitem label="&noscriptHttps.always;" value="3"/>
                       </menupopup>
                     </menulist>
-										<spacer flex="1" />
+                    <spacer flex="1" />
                     <checkbox id="opt-globalHttpsWhitelist" label="&noscriptGlobalHttpsWhitelist;" />
-										<spacer flex="1" />
-      </vbox>
+                    <spacer flex="1" />
+                  </vbox>
                 </tabpanel>
               </tabpanels>
             </tabbox>
@@ -395,21 +395,21 @@
             <hbox>
               <vbox>
               <checkbox id="opt-ABE.enabled" label="&ABE.enabled.label;" />
-							<spacer flex="1" />
+              <spacer flex="1" />
               <checkbox id="opt-ABE.siteEnabled" label="&ABE.siteEnabled.label;" />
               </vbox>
-							<vbox pack="end">
+              <vbox pack="end">
               <spacer flex="1" />
               <label class="text-link header"
                accesskey="?"
                onclick="noscriptUtil.openHelp('ABE')"
                value="?"/>
-							<spacer flex="1" />
-							<checkbox id="opt-ABE.wanIpAsLocal" label="" />
-							</vbox>
+              <spacer flex="1" />
+              <checkbox id="opt-ABE.wanIpAsLocal" label="" />
+              </vbox>
             </hbox>
 
-					<vbox >
+          <vbox >
             <label control="abeRulesets-list" value="&ABE.rulesets.label;" />
             <hbox flex="1">
               <listbox id="abeRulesets-list"
@@ -418,36 +418,36 @@
                 flex="1"
                 width="50"
                 persist="width"
-								style="margin-right: 0"
+                style="margin-right: 0"
               >
               <listitem label="SYSTEM" />
               <listitem label="USER" />
               </listbox>
               <splitter style="background: transparent; margin: 0; border-width: 0" />
-							<vbox flex="5">
+              <vbox flex="5">
               <deck id="abeRuleset-text-container" flex="5" style="margin-left: 0" />
-							<splitter style="background: transparent; margin: 0px; border-width: 0px" class="abe-error-element" />
-            <textbox id="abeRuleset-errors" class="noscript-error abe-error-element" style="width: 100%"
-										 readonly="true" multiline="true" rows="2" hidden="true" value="" />
-							</vbox>
+              <splitter style="background: transparent; margin: 0px; border-width: 0px" class="abe-error-element" />
+              <textbox id="abeRuleset-errors" class="noscript-error abe-error-element" style="width: 100%"
+                     readonly="true" multiline="true" rows="2" hidden="true" value="" />
+              </vbox>
             </hbox>
 
-					</vbox>
+          </vbox>
             <hbox align="center">
               <button id="abeRefresh-button" label="&ABE.refresh.label;" accesskey="&ABE.refresh.accesskey;" oncommand="abeOpts.refresh()" />
               <spacer flex="2"/>
               <button id="abeEnable-button" label="&ABE.enable.label;" accesskey="&ABE.enable.accesskey;" oncommand="abeOpts.toggle(true)" />
               <button id="abeDisable-button" label="&ABE.disable.label;" accesskey="&ABE.disable.accesskey;" oncommand="abeOpts.toggle(false)" />
-							<spacer flex="3"/>
-							<button id="abeReset-button" label="&noscriptReset;" oncommand="abeOpts.reset()" />
+              <spacer flex="3"/>
+              <button id="abeReset-button" label="&noscriptReset;" oncommand="abeOpts.reset()" />
             </hbox>
           </vbox>
        </tabpanel><!-- End ABE -->
 
-			 <tabpanel><!--  ClearClick -->
+       <tabpanel><!--  ClearClick -->
           <vbox flex="1">
 
-					<label class="header" control="cc1" value="&noscriptClearClickOpt;" />
+          <label class="header" control="cc1" value="&noscriptClearClickOpt;" />
           <vbox id="clearClickOpts">
             <checkbox id="cc1" value="1" label="&noscriptUntrustedPagesAdj;"/>
             <checkbox id="cc2" value="2" label="&noscriptTrustedPagesAdj;"/>
