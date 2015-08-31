@@ -90,19 +90,10 @@
 <!ENTITY noscriptAutoAllowTopLevel "Tilapäisesti salli ylimmän tason sivustot oletusarvoisesti">
 <!ENTITY noscriptDescription "Lisäsuoja selaimelle Firefox: NoScript sallii JavaScript, Java (ja muut lisäkkeet) vain valitsemiltasi luotettavilta sivustoilta (esim. oman verkkopankin kotisivu). Tämä sallittujen listaan perustuva ennakoiva lähestymistapa estää tietoturva haavoittuvuuksien hyväksikäyttöä (tunnettujen ja jopa tuntemattomien!) ilman, että toimivuus heikentyy... Asiantuntijat ovat samaa mieltä: Firefox on oikeasti turvallisempi NoScript'in kanssa :-)">
 <!ENTITY noscriptOptBlockCssScanners "Estä CSS-pohjaiset skannerit">
-<!ENTITY noscriptOptFilterXGet "Siisti sivustojen väliset epäilyttävät pyynnöt">
-<!ENTITY noscriptOptFilterXPost "Muuta sivustojen väliset POST-pyynnöt vähemmän tietoja sis. GET pyynnöiksi">
 <!ENTITY noscriptShowConsole "Näytä konsoli…">
 <!ENTITY noscriptShowConsole.accesskey "S">
-<!ENTITY noscriptXss "XSS">
-<!ENTITY noscriptXss.accesskey "X">
-<!ENTITY noscriptXssFaq "XSS usein kysytyt…">
-<!ENTITY noscriptXssFaq.accesskey "K">
 <!ENTITY noscriptUnsafeReload "Turvaton uudelleen lataus">
 <!ENTITY noscriptUnsafeReload.accesskey "R">
-<!ENTITY noscriptXssExceptions "Anti-XSS suojaus poikkeukset">
-<!ENTITY noscriptXssExceptions.description "Kohteet jotka sopivat näihin &quot;regular expression&quot; lausekkeisiin EIVÄT ole suojattuja XSS vastaan.">
-<!ENTITY noscriptMatchSample "Kaavan sopivuus näyte:">
 <!ENTITY noscriptReset "Nollaa">
 <!ENTITY noscriptReset.accesskey "o">
 <!ENTITY noscriptResetDef "Palauta oletukset">

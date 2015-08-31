@@ -90,19 +90,10 @@
 <!ENTITY noscriptAutoAllowTopLevel "Уақытша жоғарғы деңгейлі сайттарға рұқсат беру">
 <!ENTITY noscriptDescription "Firefox үшін экстра қорғаныс: NoScript көмегімен сіз JavaScript, Java (және басқа плагиндер) орындалуын тек өзіңіз көрсеткен домендер үшін рұқсат ете аласыз (мысалы, өзіңіздің веб-сайтыңыз). Рұқсат етілген тізім, алдын-ала блоктауға негізделіп, мүмкіндіктерге әсер етпей-ақ, осалдылықтардың алдын алуға көмектеседі (белгілі және белгісіз!)… Мамандар келіседі: NoScript қолдану Firefox жұмысын қауіпсіз етеді:-)">
 <!ENTITY noscriptOptBlockCssScanners "CSS-негізделген сканерлерді оқшаулау">
-<!ENTITY noscriptOptFilterXGet "CSS сұранымдарын оқшаулау">
-<!ENTITY noscriptOptFilterXPost "Сайт аралық POST сұранымдарын мәліметі жоқ GET сұранымдарына айналдыру">
 <!ENTITY noscriptShowConsole "Консольді көрсету...">
 <!ENTITY noscriptShowConsole.accesskey "у">
-<!ENTITY noscriptXss "XSS">
-<!ENTITY noscriptXss.accesskey "Х">
-<!ENTITY noscriptXssFaq "XSS жиі қойылатын сұрақтары...">
-<!ENTITY noscriptXssFaq.accesskey "й">
 <!ENTITY noscriptUnsafeReload "Қауіпсіз емес қайта жүктелу">
 <!ENTITY noscriptUnsafeReload.accesskey "з">
-<!ENTITY noscriptXssExceptions "Анти-XSS қорғаудың ерекше ережелері">
-<!ENTITY noscriptXssExceptions.description "Бұл маскаларға сәйкес келетін объектілер XSS қарсы ҚОРҒАЛМАЙДЫ.">
-<!ENTITY noscriptMatchSample "Шаблон мысалы:">
 <!ENTITY noscriptReset "Тастау">
 <!ENTITY noscriptReset.accesskey "с">
 <!ENTITY noscriptResetDef "Бастапқы түріне келтіру">

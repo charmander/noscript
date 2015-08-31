@@ -85,19 +85,10 @@
 <!ENTITY noscriptAutoAllowTopLevel "Ijinkan sementara situs top-level untuk awal">
 <!ENTITY noscriptDescription "Perlindungan tambahan untuk FireFox Anda: NoScript mengijinkan JavaScript, Java (dan plugin lainnya) hanya untuk domain terpercaya pilihan Anda (misal: situs web-banking personal). Daftar putih ini menjadi dasar perlindungan dari penyalahgunaan lubang keamanan (yang diketahui maupun tidak) tanpa kehilangan fungsionalitas... Para ahli percaya: FireFox lebih aman bersama NoScript :-)">
 <!ENTITY noscriptOptBlockCssScanners "halangi pemindai berdasar CSS">
-<!ENTITY noscriptOptFilterXGet "Bersihkan permintaan cross-site yang mencurigakan">
-<!ENTITY noscriptOptFilterXPost "Ubah permintaan POST cross-site menjadi permintaan GET tanpa data">
 <!ENTITY noscriptShowConsole "Tampilkan Penyangga">
 <!ENTITY noscriptShowConsole.accesskey "P">
-<!ENTITY noscriptXss "XSS">
-<!ENTITY noscriptXss.accesskey "X">
-<!ENTITY noscriptXssFaq "XSS FAQ...">
-<!ENTITY noscriptXssFaq.accesskey "Q">
 <!ENTITY noscriptUnsafeReload "Ambil ulang yang tidak aman">
 <!ENTITY noscriptUnsafeReload.accesskey "u">
-<!ENTITY noscriptXssExceptions "Pengecualian Perlindungan Anti-XSS">
-<!ENTITY noscriptXssExceptions.description "Pencocokan tujuan regular expression ini tidak akan dilindungi dari XSS">
-<!ENTITY noscriptMatchSample "Contoh pencocokan pola:">
 <!ENTITY noscriptReset "Reset">
 <!ENTITY noscriptReset.accesskey "R">
 <!ENTITY noscriptResetDef "Reset ke awal">

@@ -90,19 +90,10 @@
 <!ENTITY noscriptAutoAllowTopLevel "Временно разрешать документы верхнего уровня по умолчанию">
 <!ENTITY noscriptDescription "Дополнительная защита для Firefox: NoScript позволяет разрешать JavaScript, Java (и другие плагины) только для доверенных доменов, выбранных вами (например: сайт банковского обслуживания). Белый список, основанный на принципе упреждающего блокирования, позволяет предотвратить использование уязвимостей (известных и ещё не известных!) без потери функциональности… Эксперты соглашаются: Firefox действительно безопаснее с NoScript :-)">
 <!ENTITY noscriptOptBlockCssScanners "Блокировать CSS-сканеры">
-<!ENTITY noscriptOptFilterXGet "Фильтровать подозрительные межсайтовые запросы">
-<!ENTITY noscriptOptFilterXPost "Заменять межсайтовые POST-запросы на GET-запросы без данных">
 <!ENTITY noscriptShowConsole "Открыть консоль…">
 <!ENTITY noscriptShowConsole.accesskey "о">
-<!ENTITY noscriptXss "XSS">
-<!ENTITY noscriptXss.accesskey "X">
-<!ENTITY noscriptXssFaq "Справка по XSS (межсайтовому скриптингу)">
-<!ENTITY noscriptXssFaq.accesskey "а">
 <!ENTITY noscriptUnsafeReload "Небезопасная перезагрузка">
 <!ENTITY noscriptUnsafeReload.accesskey "е">
-<!ENTITY noscriptXssExceptions "Исключения анти-XSS защиты">
-<!ENTITY noscriptXssExceptions.description "Целевые страницы, соответствующие этим регулярным выражениям, НЕ будут защищаться против XSS.">
-<!ENTITY noscriptMatchSample "Пример шаблона:">
 <!ENTITY noscriptReset "Сброс">
 <!ENTITY noscriptReset.accesskey "о">
 <!ENTITY noscriptResetDef "Сбросить настройки">

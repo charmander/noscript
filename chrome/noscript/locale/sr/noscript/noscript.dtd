@@ -90,19 +90,10 @@
 <!ENTITY noscriptAutoAllowTopLevel "Привремено дозволи домене првог нивоа">
 <!ENTITY noscriptDescription "Додатна заштита за фајерфокс. Носкрипт омогућава јаваскрипт, јаву и друге прикључке само за поверљиве сајтове. Ова бела листа заснована је на превентивном забрањивању приступа ради спречавања искоришћавања сигурносних рањивости без губљења функционалности. Стручњаци ће се сложити — фајерфокс је безбеднији уз носкрипт.">
 <!ENTITY noscriptOptBlockCssScanners "Забрани скенере засноване на  CSS-у">
-<!ENTITY noscriptOptFilterXGet "Уклони сумњиве захтеве међусајтовне скрипте">
-<!ENTITY noscriptOptFilterXPost "Пребаци међусајтовне POST захтеве у безподатковне GET захтеве">
 <!ENTITY noscriptShowConsole "Прикажи конзолу…">
 <!ENTITY noscriptShowConsole.accesskey "к">
-<!ENTITY noscriptXss "XSS">
-<!ENTITY noscriptXss.accesskey "X">
-<!ENTITY noscriptXssFaq "XSS ЧПП…">
-<!ENTITY noscriptXssFaq.accesskey "Ч">
 <!ENTITY noscriptUnsafeReload "Небезбедно поновно учитавање">
 <!ENTITY noscriptUnsafeReload.accesskey "б">
-<!ENTITY noscriptXssExceptions "Анти-XSS изузеци заштите">
-<!ENTITY noscriptXssExceptions.description "Одредишта која се поклапају с регуларним изразима неће бити заштићена против XSS-а.">
-<!ENTITY noscriptMatchSample "Обрасци:">
 <!ENTITY noscriptReset "Поништи">
 <!ENTITY noscriptReset.accesskey "П">
 <!ENTITY noscriptResetDef "Постави на подразумевано">

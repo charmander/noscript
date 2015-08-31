@@ -88,19 +88,10 @@
 <!ENTITY noscriptAutoAllowTopLevel "Часова дазваляць базавым даменам 2-го ўзроўня па змаўчанні">
 <!ENTITY noscriptDescription "Дадатковая абарона для Firefox: NoScript дазваляе дазваляць выкананне JavaScript, Java (і іншых убудоваў) толькі даменам, якім давяраеце (напрыклад, ваш вэб-сайт). Белы спіс, заснаваны на прынцыпе папераджальнага блакавання, дазваляе прадухіліць выкарыстанне ўразлівасцяў (вядомых і яшчэ невядомых!) без страты функцыянальнасці… Эксперты згаджаюцца: Firefox сапраўды бяспечней з NoScript :-)">
 <!ENTITY noscriptOptBlockCssScanners "Блакаваць CSS-сканары">
-<!ENTITY noscriptOptFilterXGet "Фільтраваць запыты, падазраваныя на XSS">
-<!ENTITY noscriptOptFilterXPost "Замяняць XSS POST-запыты на GET-запыты без дадзеных">
 <!ENTITY noscriptShowConsole "Паказаць кансоль…">
 <!ENTITY noscriptShowConsole.accesskey "S">
-<!ENTITY noscriptXss "XSS">
-<!ENTITY noscriptXss.accesskey "X">
-<!ENTITY noscriptXssFaq "XSS FAQ…">
-<!ENTITY noscriptXssFaq.accesskey "Q">
 <!ENTITY noscriptUnsafeReload "Небяспечная перазагрузка">
 <!ENTITY noscriptUnsafeReload.accesskey "R">
-<!ENTITY noscriptXssExceptions "Выключэнні абароны анты-XSS">
-<!ENTITY noscriptXssExceptions.description "Прызначэнні, адпавядаючыя гэтым рэгулярным выразам, НЕ будуць абароненыя супраць XSS">
-<!ENTITY noscriptMatchSample "Прыклад адпавядання шаблону:">
 <!ENTITY noscriptReset "Скінуць">
 <!ENTITY noscriptReset.accesskey "R">
 <!ENTITY noscriptResetDef "Скінуць на наладкі па змаўчанні">

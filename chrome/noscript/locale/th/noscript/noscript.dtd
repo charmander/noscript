@@ -88,19 +88,10 @@
 <!ENTITY noscriptAutoAllowTopLevel "อนุญาตไซต์ระดับสูงสุดโดยชั่วคราวด้วยค่าเริ่มต้น">
 <!ENTITY noscriptDescription "การป้องกันพิเศษสำหรับไฟร์ฟอกซ์ของคุณ: NoScript อนุญาตจาวาสคริปต์ จาวา(และตัวเสริมอื่นๆ)เฉพาะสำหรับโดเมนที่เชื่อถือได้ของตัวเลือกของคุณ(เช่นเว็บไซต์โฮมว่างของคุณ) บัญชีขาวนี้มีพื้นฐานอยู่บนการบล็อกพรี-เอมป์ทีฟคล้ายการป้องกันการหาประโยชน์อย่างไม่ถูกต้องของความอ่อนแอของความปลอดภัย(รู้แล้วและแม้แต่ไม่รู้!)ด้วยการใช้ให้เป็นประโยชน์อย่างไม่ผิดพลาด...ผู้เชี่ยวชาญจะยอมรับ: ไฟร์ฟอกซ์ปลอดภัยกว่าอย่างแท้จริงด้วย NoScript:-)">
 <!ENTITY noscriptOptBlockCssScanners "บล็อกเครื่องกราดตรวจที่มีซีเอสเอสเป็นรากฐาน">
-<!ENTITY noscriptOptFilterXGet "ไซต์ผสมปราศจากเชื้อโรคมีความต้องการน่าสงสัย">
-<!ENTITY noscriptOptFilterXPost "เปลี่ยนความต้องการไซต์ผสม POST ไปยังความต้องการไม่มีข้อมูล GET">
 <!ENTITY noscriptShowConsole "แสดงส่วนเฝ้าคุม...">
 <!ENTITY noscriptShowConsole.accesskey "S">
-<!ENTITY noscriptXss "เอกซ์เอสเอส">
-<!ENTITY noscriptXss.accesskey "X">
-<!ENTITY noscriptXssFaq "คำถามพบบ่อยเอกซ์เอสเอส...">
-<!ENTITY noscriptXssFaq.accesskey "Q">
 <!ENTITY noscriptUnsafeReload "โหลดใหม่ไม่ปลอดภัย">
 <!ENTITY noscriptUnsafeReload.accesskey "R">
-<!ENTITY noscriptXssExceptions "ข้อยกเว้นการปกป้องแอนทิ-เอกซ์เอสเอส">
-<!ENTITY noscriptXssExceptions.description "เป้าหมายการจับคู่การแสดงออกทั่วไปเหล่านี้จะไม่ถูกปกป้องกับเอกซ์เอสเอส">
-<!ENTITY noscriptMatchSample "ตัวอย่างการจับคู่พื้นผิว:">
 <!ENTITY noscriptReset "รีเซ็ต">
 <!ENTITY noscriptReset.accesskey "R">
 <!ENTITY noscriptResetDef "คืนค่าเป็นค่าดั้งเดิม">

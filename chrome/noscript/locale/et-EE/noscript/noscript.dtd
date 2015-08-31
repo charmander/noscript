@@ -90,19 +90,10 @@
 <!ENTITY noscriptAutoAllowTopLevel "Luba ajutiselt vaikimisi tipptaseme veebilehed">
 <!ENTITY noscriptDescription "Lisakaitse Firefoxile: NoScript lubab JavaSkripti, Javat (ja teisi pluginaid) ainult usaldusväärsetest domeenidest sinu valikul (nt kodupanga veebilehel). Antud nn valgel nimekirjal põhinev blokeerimine hoiab ära tuntud ja isegi tundmatute turvaaukude kuritahtlikku ärakasutamist ilma funktsionaalsust kaotamata… Eksperdid nõustuvad, et Firefox on turvalisem koos NoScriptiga :-)">
 <!ENTITY noscriptOptBlockCssScanners "Blokeeri CSS-põhinevad skannerid">
-<!ENTITY noscriptOptFilterXGet "Puhasta kahtlased päringud teistelt veebilehtedelt">
-<!ENTITY noscriptOptFilterXPost "Muuda POST-päringud teistelt veebilehtedelt andmevabadeks GET-päringuteks">
 <!ENTITY noscriptShowConsole "Näita konsooli…">
 <!ENTITY noscriptShowConsole.accesskey "k">
-<!ENTITY noscriptXss "XSS">
-<!ENTITY noscriptXss.accesskey "X">
-<!ENTITY noscriptXssFaq "Murdskriptimise KKK">
-<!ENTITY noscriptXssFaq.accesskey "K">
 <!ENTITY noscriptUnsafeReload "Mitteturvaline uuestilaadimine">
 <!ENTITY noscriptUnsafeReload.accesskey "M">
-<!ENTITY noscriptXssExceptions "Erandid murdskriptimise vastases kaitses">
-<!ENTITY noscriptXssExceptions.description "Sihtkohti, mis sobivad järgnevate regulaaravaldistega, ei kaitsta murdskriptimise suhtes">
-<!ENTITY noscriptMatchSample "Mallvõrdluse näide">
 <!ENTITY noscriptReset "Lähtesta">
 <!ENTITY noscriptReset.accesskey "L">
 <!ENTITY noscriptResetDef "Taasta algsätted">

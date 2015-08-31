@@ -314,26 +314,6 @@
              </vbox>
           </tabpanel><!-- END Additional Permissions -->
 
-
-         <tabpanel><!-- XSS -->
-         <vbox flex="1">
-            <label class="text-link header"
-              onclick="noscriptUtil.openFaq('xss')" value="&noscriptXssFaq;"
-              accesskey="&noscriptXssFaq.accesskey;"
-              />
-            <checkbox id="opt-filterXGet" label="&noscriptOptFilterXGet;" />
-            <checkbox id="opt-filterXPost" label="&noscriptOptFilterXPost;" />
-            <separator class="thin" />
-            <label control="xssEx-regexp" class="header" value="&noscriptXssExceptions;" />
-            <description control="xssEx-regexp" style="white-space: normal">&noscriptXssExceptions.description;</description>
-            <textbox id="xssEx-regexp" multiline="true" flex="1" />
-            <hbox align="center">
-              <label control="xssEx-sample" value="&noscriptMatchSample;" />
-              <textbox id="xssEx-sample" flex="1" value="https://www.google.com/search?q=test" />
-            </hbox>
-          </vbox>
-        </tabpanel>
-
         <tabpanel><!-- HTTPS -->
          <vbox flex="1">
             <label class="text-link header"

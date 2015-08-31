@@ -90,19 +90,10 @@
 <!ENTITY noscriptAutoAllowTopLevel "مبدئيا اسمح مؤقتا لمواقع المستوى الأعلى">
 <!ENTITY noscriptDescription "حماية إضافية لفيرفوكس: نوسكربت يسمح لجافاسكربت و جافا (و ملحقات أخرى) للعمل فقط من المواقع الموثوقة التي تختارها (مثلا:موقع مصرفك). هذه المقاربة التحفظية المبنية على القوائم البيضاء تمنع استغلال الثغرات الأمنية (حتى غير المعلومة منها) دون تقليل الكفاءة…سيؤكد المحترفون أن فيرفوكس أكثر أمناً مع نوسكربت.:-)">
 <!ENTITY noscriptOptBlockCssScanners "اعترض الماسحات المبنية على تقنية XSS">
-<!ENTITY noscriptOptFilterXGet "طهِّر الطلبات المشبوهة عابرة المواقع">
-<!ENTITY noscriptOptFilterXPost "حوِّل الطلبات العابرة للمواقع من النوع POST إلى طلبات من GET خالية من البيانات">
 <!ENTITY noscriptShowConsole "أظهر وحدة التحكم">
 <!ENTITY noscriptShowConsole.accesskey "ك">
-<!ENTITY noscriptXss "XSS">
-<!ENTITY noscriptXss.accesskey "X">
-<!ENTITY noscriptXssFaq "‮أسئلة شائعة عن ‪XSS">
-<!ENTITY noscriptXssFaq.accesskey "ع">
 <!ENTITY noscriptUnsafeReload "إعادة تحميل غير آمنة">
 <!ENTITY noscriptUnsafeReload.accesskey "د">
-<!ENTITY noscriptXssExceptions "‮استثناءات من الحماية ضد أكس أس أس">
-<!ENTITY noscriptXssExceptions.description "‮المواقع المطابقة لهذه العبارات الاعتيادية لن تكون محمية ضد ‪أكس أس أس">
-<!ENTITY noscriptMatchSample "عينة مطابقة للنمط">
 <!ENTITY noscriptReset "صفِّر">
 <!ENTITY noscriptReset.accesskey "ص">
 <!ENTITY noscriptResetDef "صفِّر للمبدئية">

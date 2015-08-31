@@ -88,19 +88,10 @@
 <!ENTITY noscriptAutoAllowTopLevel "اجازه دادن به سایت های رده بالا به صورت موقت و پیشفرض">
 <!ENTITY noscriptDescription "Extra protection for your Firefox: NoScript allows JavaScript, Java (and other plugins) only for trusted domains of your choice (e.g. your home-banking web site). This whitelist based pre-emptive blocking approach prevents exploitation of security vulnerabilities (known and even unknown!) with no loss of functionality... Experts will agree: Firefox is really safer with NoScript :-)">
 <!ENTITY noscriptOptBlockCssScanners "سد کردن اسکنرهای بر پایه CSS">
-<!ENTITY noscriptOptFilterXGet "Sanitize cross-site suspicious requests">
-<!ENTITY noscriptOptFilterXPost "Turn cross-site POST requests into data-less GET requests">
 <!ENTITY noscriptShowConsole "نمایش کنسول...">
 <!ENTITY noscriptShowConsole.accesskey "g">
-<!ENTITY noscriptXss "XSS">
-<!ENTITY noscriptXss.accesskey "X">
-<!ENTITY noscriptXssFaq "XSS سوالات">
-<!ENTITY noscriptXssFaq.accesskey "X">
 <!ENTITY noscriptUnsafeReload "بازآوری ناامن">
 <!ENTITY noscriptUnsafeReload.accesskey "ب">
-<!ENTITY noscriptXssExceptions "Anti-XSS Protection Exceptions">
-<!ENTITY noscriptXssExceptions.description "Destinations matching these regular expressions will NOT be protected against XSS">
-<!ENTITY noscriptMatchSample "مثال تطابق الگو :">
 <!ENTITY noscriptReset "ریست">
 <!ENTITY noscriptReset.accesskey "ت">
 <!ENTITY noscriptResetDef "بازگردانی به تنظیمات اولیه">

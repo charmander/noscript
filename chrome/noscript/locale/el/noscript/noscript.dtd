@@ -90,19 +90,10 @@
 <!ENTITY noscriptAutoAllowTopLevel "Να επιτρέπεται προσωρινά για τον βασικό ιστότοπο (ως αρχική ρύθμιση)">
 <!ENTITY noscriptDescription "Πρόσθετη προστασία για τον Firefox. Οι ειδικοί συμφωνούν: το NoScript δίνει μεγαλύτερη ασφάλεια στον Firefox. :-)">
 <!ENTITY noscriptOptBlockCssScanners "Μπλοκάρισμα ανιχνεύσεων CSS">
-<!ENTITY noscriptOptFilterXGet "Εκκαθάριση αιτημάτων ύποπτων ως cross-site scripting">
-<!ENTITY noscriptOptFilterXPost "Μετατροπή αιτημάτων cross-site POST σε κενά περιεχομένου αιτήματα GET">
 <!ENTITY noscriptShowConsole "Προβολή κονσόλας…">
 <!ENTITY noscriptShowConsole.accesskey "κ">
-<!ENTITY noscriptXss "XSS">
-<!ENTITY noscriptXss.accesskey "X">
-<!ENTITY noscriptXssFaq "Συχνές ερωτήσεις XSS…">
-<!ENTITY noscriptXssFaq.accesskey "χ">
 <!ENTITY noscriptUnsafeReload "Μη ασφαλής ανανέωση">
 <!ENTITY noscriptUnsafeReload.accesskey "Μ">
-<!ENTITY noscriptXssExceptions "Εξαιρέσεις από προστασία αντι-XSS">
-<!ENTITY noscriptXssExceptions.description "Δεν θα παρέχεται προστασία αντί-XSS για προορισμούς που ταιριάζουν με τις κανονικές εκφράσεις:">
-<!ENTITY noscriptMatchSample "Παράδειγμα ταιριάσματος μοτίβου:">
 <!ENTITY noscriptReset "Επαναφορά αρχικών ρυθμίσεων">
 <!ENTITY noscriptReset.accesskey "Ε">
 <!ENTITY noscriptResetDef "Επαναφορά αρχικών ρυθμίσεων">

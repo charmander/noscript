@@ -88,19 +88,10 @@
 <!ENTITY noscriptAutoAllowTopLevel "Tillåt top-nivå platser tillfälligt">
 <!ENTITY noscriptDescription "Extra skydd för Firefox: NoScript tillåter JavaScript, Java (och andra tillägg) endast för betrodda domäner du valt (t ex din internetbank). Denna vitlistebaserade förebyggande blockering förhindrar uttnyttjande av säkerhetsproblem (både kända och okända) utan förlust av funktionalitet... Experter är överens: Firefox är verkligen säkrare med NoScript :-)">
 <!ENTITY noscriptOptBlockCssScanners "Blockera CSS-baserade scanners">
-<!ENTITY noscriptOptFilterXGet "Tvätta misstänkta XSS förfrågningar">
-<!ENTITY noscriptOptFilterXPost "Ändra XSS POST förfrågningar till datalösa GET förfrågningar">
 <!ENTITY noscriptShowConsole "Visa konsoll...">
 <!ENTITY noscriptShowConsole.accesskey "K">
-<!ENTITY noscriptXss "XSS">
-<!ENTITY noscriptXss.accesskey "X">
-<!ENTITY noscriptXssFaq "XSS FAQ...">
-<!ENTITY noscriptXssFaq.accesskey "Q">
 <!ENTITY noscriptUnsafeReload "Osäker omladdning">
 <!ENTITY noscriptUnsafeReload.accesskey "R">
-<!ENTITY noscriptXssExceptions "Anti-XSS undantag">
-<!ENTITY noscriptXssExceptions.description "Destinationer som matchar dessa reguljära uttryck kommer INTE att skyddas mot XSS.">
-<!ENTITY noscriptMatchSample "Exempel på mönster:">
 <!ENTITY noscriptReset "Reset">
 <!ENTITY noscriptReset.accesskey "R">
 <!ENTITY noscriptResetDef "Återställ till standard">

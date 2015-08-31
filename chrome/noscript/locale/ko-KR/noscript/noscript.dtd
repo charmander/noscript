@@ -88,19 +88,10 @@
 <!ENTITY noscriptAutoAllowTopLevel "일시적으로 최상위 사이트를 허용">
 <!ENTITY noscriptDescription "FireFox(불여우)를 위한 한층 강화된 보안 기능: NoScript를 사용하면 여러분이 선택한 신뢰할 수 있는 도메인(예를 들면, 인터넷 뱅킹 웹 사이트)에 대해서만 JavaScript와 Java(또한 그 밖의 플러그인들 포함)를 허용합니다. 사용자 지정 목록(whitelist)에 기반을 둔 선점형 차단 접근 방식을 통해 기능에 제약을 받지 않고 보안 위협 요소들(알려진 위협 요소 뿐만 아니라 알려지지 않은 위협 요소까지도!)을 사전에 차단합니다. 전문가들 역시 &quot;NoScript를 사용하면 FireFox가 좀더 안전해집니다!&quot;라고 말하고 있습니다. :-)">
 <!ENTITY noscriptOptBlockCssScanners "CSS 기반의 스캐너 차단">
-<!ENTITY noscriptOptFilterXGet "의심스러운 크로스-사이트 요청 차단">
-<!ENTITY noscriptOptFilterXPost "크로스-사이트 POST 요청을 데이터 손실이 없는 GET 요청으로 변환">
 <!ENTITY noscriptShowConsole "콘솔 보기...">
 <!ENTITY noscriptShowConsole.accesskey "S">
-<!ENTITY noscriptXss "XSS">
-<!ENTITY noscriptXss.accesskey "X">
-<!ENTITY noscriptXssFaq "XSS FAQ…">
-<!ENTITY noscriptXssFaq.accesskey "Q">
 <!ENTITY noscriptUnsafeReload "안전하지 않은 상태로 다시 읽기">
 <!ENTITY noscriptUnsafeReload.accesskey "R">
-<!ENTITY noscriptXssExceptions "안티-XSS 보호 예외 적용">
-<!ENTITY noscriptXssExceptions.description "다음 정규 표현식과 일치하는 대상은 XSS로부터 보호하지 않습니다">
-<!ENTITY noscriptMatchSample "패턴 매칭 예제:">
 <!ENTITY noscriptReset "설정 복원">
 <!ENTITY noscriptReset.accesskey "R">
 <!ENTITY noscriptResetDef "기본 설정으로 복원">

@@ -88,19 +88,10 @@
 <!ENTITY noscriptAutoAllowTopLevel "Привремено дозволи top-level стране као подразумевано">
 <!ENTITY noscriptDescription "Додатна заштита за ваш Firefox: NoScript дозвољава JavaScript, Java (и остале додатке) само доменима којима се верује по вашем избору (нпр. Ваша е-banking веб страна). Овај превентивни приступ блокирања базиран на белој листи спречава искоришћавање безбедносних пропуста (познатих и чак и непознатих!) без икаквог губитка функционалности... Експерти ће се сложити: Firefox је заиста безбеднији са NoScript-ом :-)">
 <!ENTITY noscriptOptBlockCssScanners "Блокирај CSS-базиране скенере">
-<!ENTITY noscriptOptFilterXGet "Очисти сумњиве cross-site захтеве">
-<!ENTITY noscriptOptFilterXPost "Претвори cross-site POST захтеве у GET захтеве без података">
 <!ENTITY noscriptShowConsole "Прикажи конзолу...">
 <!ENTITY noscriptShowConsole.accesskey "р">
-<!ENTITY noscriptXss "XSS">
-<!ENTITY noscriptXss.accesskey "X">
-<!ENTITY noscriptXssFaq "XSS ЧПП...">
-<!ENTITY noscriptXssFaq.accesskey "Ч">
 <!ENTITY noscriptUnsafeReload "Небезбедно поновно учитавање">
 <!ENTITY noscriptUnsafeReload.accesskey "б">
-<!ENTITY noscriptXssExceptions "Изузеци Anti-XSS заштите">
-<!ENTITY noscriptXssExceptions.description "Одредишта која задовољавају ове регуларне изразе НЕЋЕ бити заштићена од XSS">
-<!ENTITY noscriptMatchSample "Узорак шаблона за поклапање:">
 <!ENTITY noscriptReset "Врати подразумевано">
 <!ENTITY noscriptReset.accesskey "Р">
 <!ENTITY noscriptResetDef "Ресетуј на подразумевано">

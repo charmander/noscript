@@ -88,19 +88,10 @@
 <!ENTITY noscriptAutoAllowTopLevel "התר אתרים ראשיים באופן זמני כברירת מחדל">
 <!ENTITY noscriptDescription "הגנה נוספת עבור ה־Firefox שלך: NoScript מתיר ל־ ™JS, Java (ותוספות אחרות) לפעול רק בתחומים מהימנים על פי בחירתך (כגון: אתר הבית של חשבון הבנק שלך). גישה זו מבוססת על &quot;רשימת מותרים&quot; החוסמת מראש את מה שאינו מורשה, מונעת ניצול של פרצות אבטחה (כאלה שידועים ואפילו שעדיין לא!) מבלי לגרוע בתיפקודיות הגלישה..! מומחים יסכימו ש־Firefox בטוח יותר עם NoScript :-)">
 <!ENTITY noscriptOptBlockCssScanners "חסום סורקים מבוססי CSS">
-<!ENTITY noscriptOptFilterXGet "הסר בקשות צד שלישי חשודות בין אתרים">
-<!ENTITY noscriptOptFilterXPost "הפוך בקשות POST של אתרים מצד שלישי לבקשות GET ללא נתונים נלווים">
 <!ENTITY noscriptShowConsole "הצג מסוף...">
 <!ENTITY noscriptShowConsole.accesskey "">
-<!ENTITY noscriptXss "XSS">
-<!ENTITY noscriptXss.accesskey "X">
-<!ENTITY noscriptXssFaq "שאלות נפוצות בנושא XSS...">
-<!ENTITY noscriptXssFaq.accesskey "ל">
 <!ENTITY noscriptUnsafeReload "טעינה מחדש לא בטוחה">
 <!ENTITY noscriptUnsafeReload.accesskey "">
-<!ENTITY noscriptXssExceptions "הגנת Anti-XSS ליוצאים מן הכלל">
-<!ENTITY noscriptXssExceptions.description "יעדים התואמים לביטויים רגילים אלה לא יהיו מוגנים מפני XSS.">
-<!ENTITY noscriptMatchSample "דוגמה התואמת לתבנית:">
 <!ENTITY noscriptReset "איפוס">
 <!ENTITY noscriptReset.accesskey "">
 <!ENTITY noscriptResetDef "אפס להגדרות ברירת מחדל">

@@ -90,19 +90,10 @@
 <!ENTITY noscriptAutoAllowTopLevel "Po standardźe sydła najwyšeje runiny nachwilu dowolić">
 <!ENTITY noscriptDescription "Wosebity škit za waš Firefox: NoScript dowola JavaScript, Java (a druhe tykače) jenož za dowěry hódne domeny wašeje wólby (na př. waše websydło za domjacne bankowanje). Tuta běła lisćina, kotraž na prewentiwnym přistupje k blokowanju bazěruje, zadźěwa znjewužiwanju wěstotnych dźěrow (znatych a samo njeznatych!) bjez zhubjenja funkcionalnosće… Eksperća přizwola: Firefox je woprawdźe wěsćiši z NoScript :-)">
 <!ENTITY noscriptOptBlockCssScanners "Skanery na zakładźe CSS blokować">
-<!ENTITY noscriptOptFilterXGet "Podhladne XSS-požadanja porjedźić">
-<!ENTITY noscriptOptFilterXPost "XSS-požadanja POST do požadanjow GET wobsahowacych mjenje datow přetworić">
 <!ENTITY noscriptShowConsole "Konsolu pokazać…">
 <!ENTITY noscriptShowConsole.accesskey "K">
-<!ENTITY noscriptXss "XSS">
-<!ENTITY noscriptXss.accesskey "X">
-<!ENTITY noscriptXssFaq "Huste prašenja XSS…">
-<!ENTITY noscriptXssFaq.accesskey "H">
 <!ENTITY noscriptUnsafeReload "Njewěste znowazačitanje">
 <!ENTITY noscriptUnsafeReload.accesskey "N">
-<!ENTITY noscriptXssExceptions "Wuwzaća škita přećiwo XSS">
-<!ENTITY noscriptXssExceptions.description "Cile, kotrež tutym regularnym wurazam wotpowěduja, NJEbudu so přećiwo XSS škitać.">
-<!ENTITY noscriptMatchSample "Přikład za wotpowědnik mustra:">
 <!ENTITY noscriptReset "Wróćo stajić">
 <!ENTITY noscriptReset.accesskey "s">
 <!ENTITY noscriptResetDef "Na standard wróćo stajić">

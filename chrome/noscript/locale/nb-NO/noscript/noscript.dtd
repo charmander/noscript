@@ -90,19 +90,10 @@
 <!ENTITY noscriptAutoAllowTopLevel "Midlertidig tillat top-nivå sider som standard">
 <!ENTITY noscriptDescription "Ekstra beskyttelse for Firefox: NoScript tillater JavaScript, Java (og andre plugin) kun for trygge sider som du velger selv (f.eks. din nettbank). Denne hvitlistebaserte blokkeringssnutten forhindrer utnyttelse av sikkerhetshull (kjente og ukjente) uten tap av funksjonalitet. Ekspertene er enige: Firefox er mye tryggere med NoScript.">
 <!ENTITY noscriptOptBlockCssScanners "Blokker CSS-baserte scannere">
-<!ENTITY noscriptOptFilterXGet "Undersøk misstenkelige forespørsler fra kryssende sider">
-<!ENTITY noscriptOptFilterXPost "Turn cross-site POST requests into data-less GET requests">
 <!ENTITY noscriptShowConsole "Vis konsoll...">
 <!ENTITY noscriptShowConsole.accesskey "S">
-<!ENTITY noscriptXss "XSS">
-<!ENTITY noscriptXss.accesskey "X">
-<!ENTITY noscriptXssFaq "XSS Faq">
-<!ENTITY noscriptXssFaq.accesskey "Q">
 <!ENTITY noscriptUnsafeReload "Usikker oppdatering">
 <!ENTITY noscriptUnsafeReload.accesskey "R">
-<!ENTITY noscriptXssExceptions "Anti-XSS beskyttelsesunntak">
-<!ENTITY noscriptXssExceptions.description "Mål som matcher desse regulære uttrykkene vil IKKE være beskyttet mot XSS.">
-<!ENTITY noscriptMatchSample "Mønsterlikhetstreff, eksempel:">
 <!ENTITY noscriptReset "Tilbakestill">
 <!ENTITY noscriptReset.accesskey "s">
 <!ENTITY noscriptResetDef "Tilbakestill til standard">

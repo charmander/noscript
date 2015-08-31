@@ -88,19 +88,10 @@
 <!ENTITY noscriptAutoAllowTopLevel "সাময়িকভাবে ডিফল্টরূপে উপরের স্তরের সাইট অনুমোদন">
 <!ENTITY noscriptDescription "ফায়ারফক্সের জন্য অতিরিক্ত সুরক্ষা: নোস্ক্রিপট শুধুমাত্র আপনার বিশ্বাসযোগ্য এলাকারই কাজ করবে (যেমন আপনার বাঙ্কের ওয়েবসাইট). বিশেষজ্ঞরা রাজি হবে: ফায়ারফক্সের সত্যিই নিরাপদ হয় নোস্ক্রিপটের সঙ্গে  :-)">
 <!ENTITY noscriptOptBlockCssScanners "ব্লক CSS ভিত্তিক স্ক্যানার">
-<!ENTITY noscriptOptFilterXGet "ক্রস সাইট সন্দেহজনক অনুরোধ মুছুন">
-<!ENTITY noscriptOptFilterXPost "ডাটা অ অনুরোধ পাবার মধ্যে ক্রস সাইটের অনুরোধ চালু">
 <!ENTITY noscriptShowConsole "কনসোল দেখান ...">
 <!ENTITY noscriptShowConsole.accesskey "S">
-<!ENTITY noscriptXss "XSS">
-<!ENTITY noscriptXss.accesskey "X">
-<!ENTITY noscriptXssFaq "XSS প্রশ্ন">
-<!ENTITY noscriptXssFaq.accesskey "Q">
 <!ENTITY noscriptUnsafeReload "বিপজ্জনক রিলোড">
 <!ENTITY noscriptUnsafeReload.accesskey "R">
-<!ENTITY noscriptXssExceptions "XSSবিরোধী সুরক্ষা ব্যতীক্রম">
-<!ENTITY noscriptXssExceptions.description "Destinations matching these regular expressions will NOT be protected against XSS.">
-<!ENTITY noscriptMatchSample "প্যাটার্ন ম্যাচিং নমুনা:">
 <!ENTITY noscriptReset "পুনরায় বসান">
 <!ENTITY noscriptReset.accesskey "s">
 <!ENTITY noscriptResetDef "ডিফল্ট রিসেট">

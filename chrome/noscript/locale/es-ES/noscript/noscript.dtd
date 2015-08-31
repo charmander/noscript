@@ -90,19 +90,10 @@
 <!ENTITY noscriptAutoAllowTopLevel "Permitir por defecto de forma temporal los dominios de máximo nivel">
 <!ENTITY noscriptDescription "Protección extra para su Firefox: NoScript sólo permite JavaScript, Java y otros plugins en los sitios web de confianza que Ud. elija (como la web de su banco). Este planteamiento preventivo basado en una lista blanca evita que se puedan explotar vulnerabilidades (conocidas o incluso desconocidas) sin pérdida de funcionalidad… Los expertos lo confirmarán: Firefox es realmente más seguro con NoScript :-)">
 <!ENTITY noscriptOptBlockCssScanners "Bloquear escáners basados en CSS">
-<!ENTITY noscriptOptFilterXGet "Depurar peticiones cross-site sospechosas">
-<!ENTITY noscriptOptFilterXPost "Convertir peticiones POST cross-site en peticiones GET sin datos">
 <!ENTITY noscriptShowConsole "Mostrar Consola de error…">
 <!ENTITY noscriptShowConsole.accesskey "C">
-<!ENTITY noscriptXss "XSS">
-<!ENTITY noscriptXss.accesskey "X">
-<!ENTITY noscriptXssFaq "FAQ sobre XSS…">
-<!ENTITY noscriptXssFaq.accesskey "Q">
 <!ENTITY noscriptUnsafeReload "Recarga en modo inseguro">
 <!ENTITY noscriptUnsafeReload.accesskey "R">
-<!ENTITY noscriptXssExceptions "Excepciones a la protección anti XSS">
-<!ENTITY noscriptXssExceptions.description "Los destinos que coincidan con estas expresiones regulares NO estarán protegidos frente a XSS">
-<!ENTITY noscriptMatchSample "Ejemplo de coincidencia con las expresiones:">
 <!ENTITY noscriptReset "Restaurar">
 <!ENTITY noscriptReset.accesskey "R">
 <!ENTITY noscriptResetDef "Restaurar predeterminados">

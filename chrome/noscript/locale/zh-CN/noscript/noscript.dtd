@@ -90,19 +90,10 @@
 <!ENTITY noscriptAutoAllowTopLevel "默认临时允许顶层站点">
 <!ENTITY noscriptDescription "为您的 Firefox 提供额外保护: NoScript 只允许在您选择的信任域 (例如您的家庭银行网站) 上执行 JavaScript、Java(和其他插件)。该白名单基于抢先阻止机制，在不损失任何功能的前提下，防止利用已知或未知安全漏洞的攻击。专家们同意：拥有 NoScript 的 Firefox 更安全 :-)">
 <!ENTITY noscriptOptBlockCssScanners "阻止基于 CSS 的扫描器">
-<!ENTITY noscriptOptFilterXGet "净化跨站点的可疑请求">
-<!ENTITY noscriptOptFilterXPost "把跨站点 POST 请求转换为最少数据的 GET 请求">
 <!ENTITY noscriptShowConsole "显示控制台...">
 <!ENTITY noscriptShowConsole.accesskey "S">
-<!ENTITY noscriptXss "XSS">
-<!ENTITY noscriptXss.accesskey "X">
-<!ENTITY noscriptXssFaq "XSS 问答...">
-<!ENTITY noscriptXssFaq.accesskey "Q">
 <!ENTITY noscriptUnsafeReload "非安全的重新载入">
 <!ENTITY noscriptUnsafeReload.accesskey "R">
-<!ENTITY noscriptXssExceptions "反 XSS 保护的例外情况">
-<!ENTITY noscriptXssExceptions.description "匹配以下正则表达式的目标将不会被保护不遭受 XSS (跨站脚本攻击)。">
-<!ENTITY noscriptMatchSample "模式匹配示例:">
 <!ENTITY noscriptReset "重置">
 <!ENTITY noscriptReset.accesskey "S">
 <!ENTITY noscriptResetDef "重置为默认值">

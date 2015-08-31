@@ -90,19 +90,10 @@
 <!ENTITY noscriptAutoAllowTopLevel "Legmagasabb szintű webhelyek ideiglenes engedélyezése">
 <!ENTITY noscriptDescription "Firefox extra védelme: NoScript engedélyezheti a JavaScript, Java (és más beépülőket) az Ön által megadott webhelyekre (pl. átutalások interneten keresztül). Ez a megbízható szervereket tartalmazó lista megelőző blokkoláson alapszik, így óv a támadásoktól a biztonsági réseken keresztül (ismert és ismeretlen!), mindezt működés közben… Az expertek egyetértenek: A Firefox a NoScript kiterjesztéssel valóban biztonságosabb :-)">
 <!ENTITY noscriptOptBlockCssScanners "CSS-alapú szkennerek blokkolása">
-<!ENTITY noscriptOptFilterXGet "Gyanús XSS hozzáférések kezelése">
-<!ENTITY noscriptOptFilterXPost "POST hozzáférés átváltása GET hozzáférésre">
 <!ENTITY noscriptShowConsole "Konzol megjelenítése…">
 <!ENTITY noscriptShowConsole.accesskey "K">
-<!ENTITY noscriptXss "XSS">
-<!ENTITY noscriptXss.accesskey "X">
-<!ENTITY noscriptXssFaq "XSS GYIK…">
-<!ENTITY noscriptXssFaq.accesskey "G">
 <!ENTITY noscriptUnsafeReload "Megbízhatatlan újratöltése">
 <!ENTITY noscriptUnsafeReload.accesskey "N">
-<!ENTITY noscriptXssExceptions "Anti-XSS védelem kivételek">
-<!ENTITY noscriptXssExceptions.description "A következő reguláris kifejezéseknek megfelelő webhelyek NEM LESZNEK az XSS ellen védve.">
-<!ENTITY noscriptMatchSample "Sablon példa:">
 <!ENTITY noscriptReset "Alaphelyzet">
 <!ENTITY noscriptReset.accesskey "A">
 <!ENTITY noscriptResetDef "Alaphelyzetbe állít">

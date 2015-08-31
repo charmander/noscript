@@ -90,19 +90,10 @@
 <!ENTITY noscriptAutoAllowTopLevel "Benarkan sementara laman top-level secara biasa">
 <!ENTITY noscriptDescription "Perlindungaan tambahan untuk Firefox anda: NoScript membenarkan JavaScript, Java (dan plugin-plugin lain) hanya untuk laman yang anda percayai (contoh:laman web bank). Senarai putih berdasarkan pre-emptive menghalang eksploitasi pada sekuriti (yang diketahui dan tidak diketahui!) tanpa pengurangan fungsi... Pakar-pakar telah menyetujui bahawa: Firefox adalah benar-benar selamat dengan NoScript:-)">
 <!ENTITY noscriptOptBlockCssScanners "Halang pengesan CSS">
-<!ENTITY noscriptOptFilterXGet "Membersihkan laman yang disyaki">
-<!ENTITY noscriptOptFilterXPost "Tukarkan permintaan cross-site POST kepada permintaan data GET">
 <!ENTITY noscriptShowConsole "Tunjukkan Konsol...">
 <!ENTITY noscriptShowConsole.accesskey "S">
-<!ENTITY noscriptXss "XSS">
-<!ENTITY noscriptXss.accesskey "X">
-<!ENTITY noscriptXssFaq "Soalan Kerap Ditanya XSS">
-<!ENTITY noscriptXssFaq.accesskey "Q">
 <!ENTITY noscriptUnsafeReload "Muat turun semula secara tidak selamat">
 <!ENTITY noscriptUnsafeReload.accesskey "R">
-<!ENTITY noscriptXssExceptions "Pengecualian Perlindungan Anti-XSS">
-<!ENTITY noscriptXssExceptions.description "Padanan ekspresi ini tidak akan dilindungi dari XSS">
-<!ENTITY noscriptMatchSample "Sampel padanan paten:">
 <!ENTITY noscriptReset "Tetapan semula">
 <!ENTITY noscriptReset.accesskey "s">
 <!ENTITY noscriptResetDef "Tetapkan kepada asal">

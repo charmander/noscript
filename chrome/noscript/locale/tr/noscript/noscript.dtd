@@ -90,19 +90,10 @@
 <!ENTITY noscriptAutoAllowTopLevel "Varsayılan olarak aktif sitelere geçici izin verilir">
 <!ENTITY noscriptDescription "Firefox'unuz için ekstra güvenlik: NoScript seçiminize göre, sadece izin verdiğiniz sitelerde Java (ve diğer eklentilere) izin verebilir. Bu Beyazliste temelli öngörmeli engelleme tekniği güvenlik açıklarını(bilinen ve bilinmeyen) kapatmaya yararken işlevsellik kaybına neden olmaz… Uzmanlar katılacaklardır: Firefox NoScript ile birlikte daha güvenli :-)">
 <!ENTITY noscriptOptBlockCssScanners "CSS-temelli tarayıcıları engelle">
-<!ENTITY noscriptOptFilterXGet "Çapraz-site şüpeli isteklerini temizle">
-<!ENTITY noscriptOptFilterXPost "Çapraz-site POST isteklerini GET'e çevir">
 <!ENTITY noscriptShowConsole "Konsolu göster">
 <!ENTITY noscriptShowConsole.accesskey "S">
-<!ENTITY noscriptXss "XSS">
-<!ENTITY noscriptXss.accesskey "X">
-<!ENTITY noscriptXssFaq "XSS SSS…">
-<!ENTITY noscriptXssFaq.accesskey "S">
 <!ENTITY noscriptUnsafeReload "Güvensiz TekrarYükleme">
 <!ENTITY noscriptUnsafeReload.accesskey "Y">
-<!ENTITY noscriptXssExceptions "Anti-XSS Koruma Ayrıcalıklıları">
-<!ENTITY noscriptXssExceptions.description "Aşağıdaki tanımlara uyan hedefler XSS&apos;e karşı KORUNMAYACAKLAR.">
-<!ENTITY noscriptMatchSample "Tanım uyum örneği:">
 <!ENTITY noscriptReset "Sıfırla">
 <!ENTITY noscriptReset.accesskey "s">
 <!ENTITY noscriptResetDef "Varsayılana Sıfırla">

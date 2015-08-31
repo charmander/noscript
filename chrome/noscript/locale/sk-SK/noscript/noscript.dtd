@@ -90,19 +90,10 @@
 <!ENTITY noscriptAutoAllowTopLevel "Dočasne povoliť stránky najvyššej úrovne">
 <!ENTITY noscriptDescription "Extra ochrana pre Firefox: NoScript povolí JavaScript, Javu (a ďalšie doplnky) len pre dôveryhodné domény podľa vášho výberu (napríklad webovú stránku bankingu). Tento zoznam dôveryhodných serverov založený na preventívnom blokovaní chráni pred zneužitím bezpečnostných dier (známych aj neznámych!) bez straty funkčnosti... Experti budú súhlasiť: Firefox s rozšírením NoScript je naozaj bezpečnejší :-)">
 <!ENTITY noscriptOptBlockCssScanners "Blokovať skenery CSS">
-<!ENTITY noscriptOptFilterXGet "Ošetriť podozrivé požiadavky cross-site">
-<!ENTITY noscriptOptFilterXPost "Prepnúť požiadavky POST cross-site na údajovo bezstratové požiadavky GET">
 <!ENTITY noscriptShowConsole "Zobraziť konzolu...">
 <!ENTITY noscriptShowConsole.accesskey "k">
-<!ENTITY noscriptXss "XSS">
-<!ENTITY noscriptXss.accesskey "X">
-<!ENTITY noscriptXssFaq "XSS FAQ...">
-<!ENTITY noscriptXssFaq.accesskey "Q">
 <!ENTITY noscriptUnsafeReload "Nebezpečné znovunačítanie">
 <!ENTITY noscriptUnsafeReload.accesskey "N">
-<!ENTITY noscriptXssExceptions "Výnimky ochrany Anti-XSS">
-<!ENTITY noscriptXssExceptions.description "Adresy zodpovedajúce týmto regulárnym výrazom NEBUDÚ chránené proti XSS">
-<!ENTITY noscriptMatchSample "Vzor šablóny:">
 <!ENTITY noscriptReset "Vynulovať">
 <!ENTITY noscriptReset.accesskey "V">
 <!ENTITY noscriptResetDef "Vynulovať na predvolené">

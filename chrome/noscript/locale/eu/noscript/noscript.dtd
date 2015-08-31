@@ -86,19 +86,10 @@
 <!ENTITY noscriptAutoAllowTopLevel "Aldi baterako onartu maila-altueneko guneak lehenespenez">
 <!ENTITY noscriptDescription "Babes gehigarria zure firefoxentzat: NoScript-ek JavaScript (eta beste pluginak= onartzen ditu bakarrik zure aukerako konfiantzako guneetan (adib zure bankuko webgunean). Zerrenda-zurian oinarritutako lehentasunezko blokeoak segurtasun zuloen (ezagun eta ezezagunen) probetxuzko esplotazioa saihesten du funtzionalitaterik galdu gabe. Adituak ados daude: Firefox seguruagoa da NoScript erabiliaz :-)">
 <!ENTITY noscriptOptBlockCssScanners "Bloekatu CSS-oinarridun eskanerrak">
-<!ENTITY noscriptOptFilterXGet "Garbitu zeharkako-gune susmagarrik eskaerak">
-<!ENTITY noscriptOptFilterXPost "Bihurtu zeharkako-gune POST eskaerak data-gabeko GET eskaerak">
 <!ENTITY noscriptShowConsole "Ikusi kontsola:">
 <!ENTITY noscriptShowConsole.accesskey "I">
-<!ENTITY noscriptXss "XSS">
-<!ENTITY noscriptXss.accesskey "X">
-<!ENTITY noscriptXssFaq "XSS FAQâ�¦">
-<!ENTITY noscriptXssFaq.accesskey "Q">
 <!ENTITY noscriptUnsafeReload "Segurtasun-gabeko birkargatzea">
 <!ENTITY noscriptUnsafeReload.accesskey "R">
-<!ENTITY noscriptXssExceptions "XSS-kontrako babeste salbuespenak">
-<!ENTITY noscriptXssExceptions.description "Espresio erregular hauek betetzen dituzten helburuak ez dira XSS aurka babestuko.">
-<!ENTITY noscriptMatchSample "Parekatze patroi sinplea:">
 <!ENTITY noscriptReset "Garbitu">
 <!ENTITY noscriptReset.accesskey "G">
 <!ENTITY noscriptResetDef "Lehenetsietara berrezarri">

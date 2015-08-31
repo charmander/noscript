@@ -90,19 +90,10 @@
 <!ENTITY noscriptAutoAllowTopLevel "Permite temporar domeniile primare în mod implicit">
 <!ENTITY noscriptDescription "Ca protecție suplimentară pentru Firefox, NoScript nu permite executarea scripturilor JavaScript, Java, sau ale altor plugin-uri decât pentru domeniile de încredere alese de Dvs. Acest sistem de blocare preventivă a scripturilor împiedică exploatarea vulnerabilităților de securitate (cunoscute sau chiar necunoscute) fără pierdere de performanță... Experții vor fi de acord: Firefox este mult mai sigur cu NoScript :)">
 <!ENTITY noscriptOptBlockCssScanners "Blochează scanerele bazate pe CSS">
-<!ENTITY noscriptOptFilterXGet "Elimină solicitările suspecte între saituri">
-<!ENTITY noscriptOptFilterXPost "Transformă solicitările POST între saituri în solicitări GET fără date">
 <!ENTITY noscriptShowConsole "Afișează consola...">
 <!ENTITY noscriptShowConsole.accesskey "c">
-<!ENTITY noscriptXss "XSS">
-<!ENTITY noscriptXss.accesskey "X">
-<!ENTITY noscriptXssFaq "Informații XSS...">
-<!ENTITY noscriptXssFaq.accesskey "f">
 <!ENTITY noscriptUnsafeReload "Reîncărcare nesigură">
 <!ENTITY noscriptUnsafeReload.accesskey "R">
-<!ENTITY noscriptXssExceptions "Excepții la protecția anti-XSS">
-<!ENTITY noscriptXssExceptions.description "Destinațiile care se potrivesc cu expresiile regulate din listă nu vor fi protejate împotriva atacurilor XSS.">
-<!ENTITY noscriptMatchSample "Exemplu de expresie regulată:">
 <!ENTITY noscriptReset "Inițializează">
 <!ENTITY noscriptReset.accesskey "I">
 <!ENTITY noscriptResetDef "Inițializează la valorile implicite">

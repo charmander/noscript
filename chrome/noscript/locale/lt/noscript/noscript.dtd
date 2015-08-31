@@ -89,19 +89,10 @@
 <!ENTITY noscriptAutoAllowTopLevel "Pagal nutylėjimą, laikinai suteikti leidimą aukščiausiojo lygio svetainių adresams">
 <!ENTITY noscriptDescription "Papildoma apsauga jūsų Firefox naršyklei: NoScript leidžia JavaScript, Java (ir kitus įskiepius) tik jūsų pasirinktiems patikimiems domenams (pvz. jūsų banko interneto svetainei). Ši baltuoju sąrašu pagrįsta išankstinio blokavimo taktika neleidžia panaudoti saugumo skylių (žinomų ir net nežinomų!) neprarandant funkcionalumo... Ekspertai pritaria: Firefox tikrai saugesnis su NoScript :-)">
 <!ENTITY noscriptOptBlockCssScanners "Blokuoti ieškiklius, pagrįstus CSS">
-<!ENTITY noscriptOptFilterXGet "Nukenksminti įtartinas tarp-svetainines užklausas">
-<!ENTITY noscriptOptFilterXPost "Paversti tarp-svetainines POST užklausas į tuščias GET užklausas">
 <!ENTITY noscriptShowConsole "Rodyti konsolę">
 <!ENTITY noscriptShowConsole.accesskey "K">
-<!ENTITY noscriptXss "XSS">
-<!ENTITY noscriptXss.accesskey "X">
-<!ENTITY noscriptXssFaq "XSS DPK...">
-<!ENTITY noscriptXssFaq.accesskey "D">
 <!ENTITY noscriptUnsafeReload "Nesaugus perkrovimas">
 <!ENTITY noscriptUnsafeReload.accesskey "P">
-<!ENTITY noscriptXssExceptions "Anti-XSS apsaugos išimtys">
-<!ENTITY noscriptXssExceptions.description "Adresai, atitinkantys šias reguliarias išraiškas, NEBUS apsaugoti nuo XSS">
-<!ENTITY noscriptMatchSample "Adreso pavyzdys:">
 <!ENTITY noscriptReset "Atstatyti">
 <!ENTITY noscriptReset.accesskey "A">
 <!ENTITY noscriptResetDef "Atstatyti į pradines reikšmes">
